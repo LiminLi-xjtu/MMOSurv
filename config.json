@@ -1,5 +1,5 @@
 {
-    "train_path": "/share/home/4120107034/Multi_view_few_shot/Method_Result_single/BRCA/Meta_Train_Data",
+    "train_path": "../Meta_Train_Data",
     "train_inner_lr": 5e-2,
     "train_outer_lr": 1e-4,
     "train_shots_n": 400,
@@ -7,7 +7,7 @@
     "train_n_inner": 5,
     "train_iters": 100,
     "reg_scale": 5e-4,
-    "target_path": "/share/home/4120107034/Multi_view_few_shot/Method_Result_single/BRCA/Meta_Target_Data/BRCA",
+    "target_path": "../Meta_Target_Data/BRCA",
     "target_dead_shots_n": 3,
     "target_alive_shots_n": 17,
     "target_task_number": 200,
