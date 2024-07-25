@@ -2,7 +2,7 @@
     "train_path": "../Meta_Train_Data",
     "train_inner_lr": 5e-2,
     "train_outer_lr": 1e-4,
-    "train_shots_n": 400,
+    "train_shots_n": 800,
     "train_batch_n": 10,
     "train_n_inner": 5,
     "train_iters": 100,
@@ -10,6 +10,6 @@
     "target_path": "../Meta_Target_Data/BRCA",
     "target_dead_shots_n": 3,
     "target_alive_shots_n": 17,
-    "target_task_number": 200,
-    "model_parameter_path": "/share/home/4120107034/model_parameters/TCGA/Multi_View_TCGA_Survival/"
+    "target_task_number": 50,
+    "model_parameter_path": "../Multi_View_TCGA_Survival/"
 }
