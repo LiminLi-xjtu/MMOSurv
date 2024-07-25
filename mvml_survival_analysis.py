@@ -11,7 +11,7 @@ from operator import add
 import time
 import argparse
 import json
-from neural_network import mvml_survival_Analysis
+from model.neural_network import mvml_survival_Analysis
 
 
 def do_base_learning(mvml_model, x_RNASeq_batch, x_miRNA_batch, R_matrix_batch, ystatus_batch,
