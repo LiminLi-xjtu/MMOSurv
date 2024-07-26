@@ -6,7 +6,6 @@ import numpy as np
 # import csv
 
 source_file_path = './Datasets_and_Preprocessing/data/miRNA_source_to_csv'
-# target_file_path = './Datasets_and_Preprocessing/data/miRNA_variable_filter_csv_var_0.5'
 target_file_path = './Datasets_and_Preprocessing/data/miRNA_variable_filter_all'
 flag = True
 for root, dirs, files in os.walk(source_file_path):
