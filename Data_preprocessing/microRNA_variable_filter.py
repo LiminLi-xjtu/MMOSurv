@@ -5,9 +5,9 @@ import numpy as np
 # 导入CSV安装包
 # import csv
 
-source_file_path = '/share/home/4120107034/Multi_view_few_shot/Datasets_and_Preprocessing/data/miRNA_source_to_csv'
-# target_file_path = '/share/home/4120107034/Multi_view_few_shot/Datasets_and_Preprocessing/data/miRNA_variable_filter_csv_var_0.5'
-target_file_path = '/share/home/4120107034/Multi_view_few_shot/Datasets_and_Preprocessing/data/miRNA_variable_filter_all'
+source_file_path = './Datasets_and_Preprocessing/data/miRNA_source_to_csv'
+# target_file_path = './Datasets_and_Preprocessing/data/miRNA_variable_filter_csv_var_0.5'
+target_file_path = './Datasets_and_Preprocessing/data/miRNA_variable_filter_all'
 flag = True
 for root, dirs, files in os.walk(source_file_path):
     for file in files:
