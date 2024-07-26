@@ -6,11 +6,9 @@ from sklearn.model_selection import train_test_split
 # 导入CSV安装包
 
 base_path = "./Datasets_and_Preprocessing/data/"
-# miRNA_path = base_path + "miRNA_variable_filter_csv_var_0.5"
 miRNA_path = base_path + "miRNA_variable_filter_all"
 RNASeq_path = base_path + "RNASeq_variable_filter_csv_var_1.2_mean_2"
 clinical_path = base_path + "clinical"
-# matched_patients_path = base_path + "matched_RNASeq_miRNA_clinical"
 matched_patients_path = base_path + "matched_RNASeq_All_miRNA_clinical"
 
 # head_flag = True
