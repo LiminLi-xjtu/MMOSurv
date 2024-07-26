@@ -31,10 +31,32 @@ print("样本的数目：" + str(temp.shape[0]))
 temp = temp.dropna(axis=0, thresh=temp.shape[1] * 0.5)
 print("删除None后" + "样本的数目：" + str(temp.shape[0]))
 
+# # 中位数填补缺失值
+# columns_name = list(temp.columns)
+# for col in columns_name:
+#     if col[:2] == 'EN':
+#         temp[col] = np.squeeze(np.array(temp[[col]].fillna(temp[col].median())))
+
+# 均值填补缺失值
+# columns_name = list(temp.columns)
+# for col in columns_name:
+#     if col[:2] == 'EN':
+#         temp[col] = np.squeeze(np.array(temp[[col]].fillna(temp[col].mean())))
 columns_name = list(temp.columns)
-for col in columns_name:
-    if col[:3] == 'hsa':
-        temp[col] = np.squeeze(np.array(temp[[col]].fillna(temp[col].median())))
+print(columns_name[0])
+mean_col_name = columns_name[1:-4]
+temp[mean_col_name] = temp[mean_col_name].fillna(temp[mean_col_name].mean())
+
+
+# # 最近邻填补缺失值
+# from sklearn.impute import KNNImputer
+# imputer = KNNImputer(n_neighbors=2)
+# columns_name = list(temp.columns)
+# print(columns_name[0])
+# KNN_col_name = columns_name[1:-4]
+# temp_knn = imputer.fit_transform(temp[KNN_col_name])
+# temp[KNN_col_name] = temp_knn
+
 
 
 var_col_name = []
