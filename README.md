@@ -50,8 +50,12 @@ The python program (matched_patients.py) only kept the patients with matched gen
 
 # Run the main routine
 
-git clone https://github.com/LiminLi-xjtu/MMOSurv.git
+#### git clone https://github.com/LiminLi-xjtu/MMOSurv.git
 
-cd MMOSurv
+#### cd MMOSurv
 
-python mvml_survival_analysis.py
+MMOSurv enables to learn an effective multi-omics survival prediction model from a very
+few training samples of a specific cancer type, with the meta-knowledge across tasks from relevant
+cancer types.
+
+#### python mvml_survival_analysis.py
