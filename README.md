@@ -15,7 +15,7 @@ The TCGA dataset are publicly available and can be obtained from: https://www.ca
 
 cd MMOSurv/Data_preprocessing
 
-/*we summarize the gene expression of patients with the same type of cancer into a csv file in extract_RNASeq_expression.py*/
+//we summarize the gene expression of patients with the same type of cancer into a csv file in extract_RNASeq_expression.py
 
 python extract_RNASeq_expression.py
 
