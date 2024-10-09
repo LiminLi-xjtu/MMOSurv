@@ -6,8 +6,8 @@ import numpy as np
 # import csv
 
 
-source_file_path = './Datasets_and_Preprocessing/data/RNASeq_source_to_csv'
-target_file_path = './Datasets_and_Preprocessing/data/RNASeq_variable_filter_csv'
+source_file_path = 'Data_preprocessing/RNASeq_source_to_csv'
+target_file_path = 'Data_preprocessing/RNASeq_variable_filter_csv'
 flag = True
 for root, dirs, files in os.walk(source_file_path):
     for file in files:
