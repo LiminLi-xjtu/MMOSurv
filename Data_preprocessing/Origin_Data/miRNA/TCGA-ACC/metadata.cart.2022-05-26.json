@@ -1,0 +1,3778 @@
+[{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LO-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "1d5602a7-72e7-4dc6-b2db-2f778fcbf475", 
+      "entity_id": "4f810a7e-ec11-4def-9ffe-b8fd8b195943"
+    }
+  ], 
+  "file_name": "42a1db3b-29df-48b8-b057-b381249eada6.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_73_MirnaExpressiond9820eeb-c0fa-4e0c-9ae3-f5f2492dd44d_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LO-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_73_AlignedReadsd9820eeb-c0fa-4e0c-9ae3-f5f2492dd44d", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 353125484, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "95a7244fc80debaf56f3ef0528246173", 
+        "updated_datetime": "2018-11-15T19:59:41.719344-06:00", 
+        "file_id": "07929e96-6507-4861-9703-8d066019b866", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_73_MirnaExpressionWorkflow7fea1f89-cfcf-4e96-aafe-c5d14624212e_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "b51db657-7f19-4e29-a9db-1da3ad001ee2", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50624, 
+  "md5sum": "2f4189449a04f84327bad47d2689810d", 
+  "file_id": "250c2fff-247d-409b-a78d-2635b7f9605a", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5KV-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "202f7a77-9e5a-4f12-8ffe-78ae5527a746", 
+      "entity_id": "2bcf51e8-f8f1-4e39-b5b3-a3b5a31fbb51"
+    }
+  ], 
+  "file_name": "e3ff6c67-8511-4522-9f4c-da4e2e725c6b.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_52_MirnaExpressionb66430ef-4f64-4bcd-93be-dc3d069902a0_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5KV-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_52_AlignedReadsb66430ef-4f64-4bcd-93be-dc3d069902a0", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 183669167, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "2facc2e5b013dcd655785b5e34e41c6b", 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "file_id": "5e58e4f2-5939-45ef-8276-26e1952b1390", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_52_MirnaExpressionWorkflowf183ede8-79a5-4dcf-ad6e-c681601a1cad_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "5a1630c8-ea61-4b60-82fe-c33c9307673b", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50378, 
+  "md5sum": "905ced5ce78c36bd27e2436e95def14e", 
+  "file_id": "80af3630-2251-495d-b894-b7d16bc9c528", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5K6-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "28153e3e-8515-4852-aaa0-247f86399f27", 
+      "entity_id": "b3794e62-c4bc-43b1-97ca-b6f6e01aa026"
+    }
+  ], 
+  "file_name": "01de284b-fbf3-471e-aa0e-6baa38807224.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_45_MirnaExpression4dda00d7-e924-46b8-864e-7199d817ff79_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5K6-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_45_AlignedReads4dda00d7-e924-46b8-864e-7199d817ff79", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 125370972, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "2b8637e9cfb9689eb5e2eca807af7dc9", 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "file_id": "8fadd729-6bb7-42e1-96a2-75478f31ab68", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_45_MirnaExpressionWorkflowda3cc1aa-c2c9-47e9-848a-b5f3522018d7_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "cb41a1e4-b613-4efc-a06b-438a382edd1c", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50432, 
+  "md5sum": "a2f86ec5fd405f2b58ed9f6b8ad3f233", 
+  "file_id": "809e2bd3-6794-4c82-8c74-c97b16f3f798", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5KX-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "33c02ece-911b-4f45-b410-9df07e9b189e", 
+      "entity_id": "ccc7b691-8f4f-46e5-85a4-a02e7f8351c1"
+    }
+  ], 
+  "file_name": "5c00d5ab-c70a-44bf-be8e-e17e00e1e053.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_22_MirnaExpression1fc4e856-5ffe-4047-904c-ed3cb11bf64b_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5KX-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_22_AlignedReads1fc4e856-5ffe-4047-904c-ed3cb11bf64b", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 439293849, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "fdc7ef59e411f8b0df7a8edf15b410d7", 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "file_id": "3da44bdb-c89a-424d-90a6-a1fa62b8cc5a", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_22_MirnaExpressionWorkflowfe07a0bb-3170-4c0e-9f09-26fa58c0fdda_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "7f74fdc0-54dd-40e5-b29c-63ace068cc28", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50323, 
+  "md5sum": "789076e16720e9a9a55f1879659f03bd", 
+  "file_id": "890c4235-302e-4f05-9a5c-334577ab48a6", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LT-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "15fb07ae-101c-4553-891d-539cee89a5e9", 
+      "entity_id": "aa8ea41f-9e25-41d1-afe0-cb9024718957"
+    }
+  ], 
+  "file_name": "872e7093-b2a8-4c2e-acda-14078e039a7d.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_46_MirnaExpressionfdcae312-af98-4336-965d-6956b76f4bd1_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LT-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_46_AlignedReadsfdcae312-af98-4336-965d-6956b76f4bd1", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 201307408, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "833eb46a9753f9c16a3e3750b0e8b4cb", 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "file_id": "8b94ac23-9f47-48ea-9f5f-23dd8a04bb95", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_46_MirnaExpressionWorkflow65040d1f-a8ea-42bb-a51b-16bddc4ee023_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "f0d9e76c-6082-4282-8ee0-299cc0db091e", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50304, 
+  "md5sum": "6128a7c9c361dac7a14c94d77e7f78af", 
+  "file_id": "f0b33500-9e33-48fd-868e-59525d8567d9", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JV-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "388b8788-a635-4bc9-9b73-d204b2256747", 
+      "entity_id": "1b949b4b-bb02-48b9-a010-ecc1ff95cebb"
+    }
+  ], 
+  "file_name": "b170e90e-7d19-414c-a64f-d8795d1b5b19.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_68_MirnaExpression18dac2dc-8c14-4a15-8787-511ef473820a_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JV-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_68_AlignedReads18dac2dc-8c14-4a15-8787-511ef473820a", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 160627953, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "c9bc90e42963ce152d1c333683a28dcf", 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "file_id": "534313bf-90a6-4381-86be-9bb2e12224aa", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_68_MirnaExpressionWorkflowef57643e-0298-48ac-a028-1d195e177393_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "709ca7e4-6206-460d-9060-5b025ddbd571", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50362, 
+  "md5sum": "bcb44eacb18832fb430240bbc8cc1018", 
+  "file_id": "ae1ff438-d1b8-4e82-9b12-81499f2b52fb", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JQ-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "199560cb-15e5-4276-865a-7d44d47c856c", 
+      "entity_id": "34520288-5a8e-441a-9e46-d8dcd44d777f"
+    }
+  ], 
+  "file_name": "4d389975-8716-4b37-9b4f-444db2ba1c46.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_10_MirnaExpression5fe01252-93c1-487a-9984-89f3ed7dcf58_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JQ-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_10_AlignedReads5fe01252-93c1-487a-9984-89f3ed7dcf58", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 244339359, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "868e9308d6d0bf79b2b95e72cf12784a", 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "file_id": "8b69830a-c6e7-469b-a386-4f8aded67a72", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_10_MirnaExpressionWorkflow5c831dd9-2d3f-46b1-896c-01325eaa3030_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "16abb511-84e0-4912-bcfe-e358531181b4", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50320, 
+  "md5sum": "f974b4bc04ed6d740035597835b66acf", 
+  "file_id": "480c16d4-0432-4fd8-8fe6-8c67d1991fd6", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5K8-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "1ae9cd13-73ef-4b1a-a734-4c465c73bc8e", 
+      "entity_id": "6329209a-cd8e-42ef-bddf-fa06e85331d1"
+    }
+  ], 
+  "file_name": "8581d7e0-f298-4fd7-84b1-1cbf09969252.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_6_MirnaExpressione9a05e65-28e0-4cb5-a428-e790051205fe_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5K8-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_6_AlignedReadse9a05e65-28e0-4cb5-a428-e790051205fe", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 203813571, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "319949ec7555d0df66fad685a5075cf4", 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "file_id": "3dbb5177-fe05-4acb-832f-2e5af3ab7b94", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_6_MirnaExpressionWorkflow7d1296fd-95ca-461a-bf24-7b04b12b6363_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "b860f56d-7cab-4c37-9339-1d489a03df28", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50304, 
+  "md5sum": "bdb7511b7be9cca88d9f7e635a6579b9", 
+  "file_id": "9d57a954-b9d6-42d5-a601-87d0d7c3b559", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5KU-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "424a497a-48b9-4507-b234-c4fd08c8acad", 
+      "entity_id": "6486c23b-eebc-4f1d-9864-15b0fc409e3f"
+    }
+  ], 
+  "file_name": "83547fb8-dce1-46a8-8b7a-beb66fcde380.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_65_MirnaExpression6bfd22fb-7b19-4434-8312-e494cbdcba55_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5KU-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_65_AlignedReads6bfd22fb-7b19-4434-8312-e494cbdcba55", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 175275798, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "07cde0ea75cab809c200a4d7211e46c7", 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "file_id": "60357ba3-9933-4c95-a0af-500d87281afe", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_65_MirnaExpressionWorkflow97281f35-7250-473e-bbb1-ede480f9f6d5_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "1610fe0c-c144-41de-8ab1-eb34313b0a64", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50327, 
+  "md5sum": "1a087ef89d7286d7ce264fbb5af4c44e", 
+  "file_id": "9cbb17bb-d151-4dc9-a3d8-5221d40a5c55", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-PK-A5HA-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "5eb5ee1f-ecff-4427-b717-b91380c043ae", 
+      "entity_id": "0c10d522-46a0-487f-a35c-9c1afd2a7c96"
+    }
+  ], 
+  "file_name": "432ca94b-2a12-429d-8c38-6dcf9ad476a8.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_14_MirnaExpression74b2c024-73a8-48eb-9ae4-161c3de39479_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-PK-A5HA-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_14_AlignedReads74b2c024-73a8-48eb-9ae4-161c3de39479", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 183441654, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "0d5799ebd142e6c238773e597d38da27", 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "file_id": "e27b4c5f-7d09-499e-85ce-28a2a4647ead", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_14_MirnaExpressionWorkflow65db24ef-fd3a-4a85-abfb-43a38ca9b6d6_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "4d768e6a-52e2-4cb8-b92d-d281bc55ff40", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50355, 
+  "md5sum": "99720fee9fd3e8977c38b1d0f16ab62f", 
+  "file_id": "65ca1d68-a664-4bec-b91e-6c7642901453", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5J4-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "5f3e2974-f1df-47a2-8a8a-29bb525eeef6", 
+      "entity_id": "9d5a8484-3865-4738-adbb-1a99b0ddb086"
+    }
+  ], 
+  "file_name": "154b68d0-2cc0-40b5-92f6-c7c4aef14623.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_55_MirnaExpressiond9c4902e-9f35-4877-b409-5a0052d79def_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5J4-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_55_AlignedReadsd9c4902e-9f35-4877-b409-5a0052d79def", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 231583664, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "139168c94af7c874950e4c38ec6453d5", 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "file_id": "d77d44df-c668-4aae-80ce-c4bb10a9aec9", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_55_MirnaExpressionWorkflowfea8b992-65b7-4a24-9ab2-5d19cc828d71_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "3a3f37df-3fc8-454e-9cf5-8a94c70c23a1", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50538, 
+  "md5sum": "0101d70e8c6dee05348f04f913385741", 
+  "file_id": "9630b754-fa84-4167-9558-45182b2fd887", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5KY-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "5f461197-15ed-43cf-9331-9e0efc4622a4", 
+      "entity_id": "a9da33f2-d770-48ed-ab88-a32d3af87122"
+    }
+  ], 
+  "file_name": "94c4307e-3159-4546-9c2b-eddd753ae361.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_11_MirnaExpressionc60f12ae-112d-4c49-a417-a0c40b42817f_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5KY-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_11_AlignedReadsc60f12ae-112d-4c49-a417-a0c40b42817f", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 212868511, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "fbd586024ffbc3320706fb04e653282e", 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "file_id": "75afffe1-f006-49ef-a77c-a746680885e7", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_11_MirnaExpressionWorkflow19c86233-9196-4546-8ebf-4371480924db_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "d4e52c92-9318-4d50-b904-4f0be0a9e8f1", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50301, 
+  "md5sum": "72dd34bf3aa7c44a91cc41c5710765da", 
+  "file_id": "f52a4c3c-d7a5-4ba4-bb4e-925491c17065", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JW-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "63b7b596-cb55-41dc-b862-a6c3a058dfe2", 
+      "entity_id": "2c3bef15-669a-4fb0-9c07-b3ef5d7b57fc"
+    }
+  ], 
+  "file_name": "c3c310c7-64a7-4d00-8f8e-84399eb8a51f.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_72_MirnaExpression698696db-25b2-439e-ae9b-5afed8d0dafe_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JW-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_72_AlignedReads698696db-25b2-439e-ae9b-5afed8d0dafe", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 220251539, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "2e4c6292bf9d080370d0eed89f99320e", 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "file_id": "db887934-c790-4b7f-90a6-ad696aa734ca", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_72_MirnaExpressionWorkflow857cbc12-04e8-46b7-82cf-882be121ae01_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "b5a7fbb5-e1a6-44cc-86dc-15d86a8773d4", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50276, 
+  "md5sum": "23577dc044111ce5f023da26f504e041", 
+  "file_id": "329279a9-20c2-4e34-8326-925134ab1369", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5KW-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "69f4f19c-08c8-4001-92a8-fed155c3b4fe", 
+      "entity_id": "c4dcc3f2-65f2-47fd-9a92-9ac0b07cfb1e"
+    }
+  ], 
+  "file_name": "9bc56db6-d02f-49e7-b635-d4782026e341.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_60_MirnaExpression9b676ec8-efb9-4c87-af79-8819830d1100_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5KW-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_60_AlignedReads9b676ec8-efb9-4c87-af79-8819830d1100", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 217452641, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "59d05ddf6d7f3cc227944a60916f95fe", 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "file_id": "1e634ab5-735c-406f-bd33-20598aa710cf", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_60_MirnaExpressionWorkflowaa94fdf0-3ca1-41d7-8bd9-49b64210dcc5_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "78c8a2a9-2e59-40c2-8f87-411ac9fd75e5", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50493, 
+  "md5sum": "57b94b328b6b7bc367c805c1ef61a598", 
+  "file_id": "286e5ae3-dc9f-40c7-be08-7c8199b41668", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-P6-A5OF-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "888a7158-2319-4563-849b-573705c72ab7", 
+      "entity_id": "aef89c64-e3e7-46ee-978c-e069e3f9234d"
+    }
+  ], 
+  "file_name": "70d1f4e7-5739-44c5-a83c-ee046a3e5993.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_43_MirnaExpression6dc2b5c6-fdf6-49a2-a06a-179291127b7c_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-P6-A5OF-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_43_AlignedReads6dc2b5c6-fdf6-49a2-a06a-179291127b7c", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 77973460, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "40f8b1d659fb670466d4faf3ff75a198", 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "file_id": "e37d23ac-fbfc-4b90-9228-85bd8d0158e9", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_43_MirnaExpressionWorkflowac20dc6d-f411-41a7-b57f-4c47f299fbdb_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "256a2665-922f-4572-9868-69e262a2eeea", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50351, 
+  "md5sum": "54ddac332e71196025f6559ec68afad7", 
+  "file_id": "c38491c4-865e-487d-b2c2-5f49db6d0a8d", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5L4-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "905368c2-ba60-4dda-b32d-a51a203b5e4d", 
+      "entity_id": "d8fa5d94-672c-4ed6-9c9d-3700ea2c1397"
+    }
+  ], 
+  "file_name": "4774212f-d658-4c42-bc76-edf3a2b20afc.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_66_MirnaExpression5fc63505-a5af-4b59-b158-bec14769bb4a_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5L4-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_66_AlignedReads5fc63505-a5af-4b59-b158-bec14769bb4a", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 172856928, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "23e2255a40bea762b0ab0a1b13ad989b", 
+        "updated_datetime": "2018-11-15T21:30:06.924734-06:00", 
+        "file_id": "a4204c35-6443-4d97-b080-3da17652bf2a", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_66_MirnaExpressionWorkflow31b26599-73b0-4196-93a7-cd411d119eb8_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "32e4d7e9-d4f5-4a42-a742-7b05d79d1263", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50477, 
+  "md5sum": "96918c64e57a49d487ea0ed9b4b446a9", 
+  "file_id": "c830b3f3-78f1-497d-a450-a8bb7f8a9884", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JZ-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "94cdac79-2b4e-483a-8f17-3e0c9be589d0", 
+      "entity_id": "7036891e-20e6-44ad-ad5f-41a8b1abe747"
+    }
+  ], 
+  "file_name": "f771ab03-25e9-4654-b3c5-5fbffa00cbbc.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_1_MirnaExpression32323274-c011-4067-adc2-43460d3eb4f8_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JZ-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_1_AlignedReads32323274-c011-4067-adc2-43460d3eb4f8", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 138841081, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "71eb47d43336d920f3230c8c72dfaa1b", 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "file_id": "95a573b3-95c7-4628-8f09-2aba009e4a93", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_1_MirnaExpressionWorkflow583a2226-a906-4b55-bb1b-65fdd70bd700_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "ca6167c9-59df-4b3e-b9df-2bf3c3a945cd", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50291, 
+  "md5sum": "242604aa880ce8d519848446aa029486", 
+  "file_id": "f024c3e2-30a4-4f63-8829-acae740f90c0", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LK-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "9c87dcee-d422-4df1-82e1-3fa201473e31", 
+      "entity_id": "9dfdfd8c-4902-4ada-9908-162f301218d0"
+    }
+  ], 
+  "file_name": "7af26309-2784-499f-9613-254ee2366927.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_70_MirnaExpression778429c9-86b7-45f0-8723-60adfc966f29_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LK-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_70_AlignedReads778429c9-86b7-45f0-8723-60adfc966f29", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 201090956, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "709bc7fe0ab5a069f0c945c35bdbe61a", 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "file_id": "313f6dee-a426-481f-9b4e-694a86fed55a", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_70_MirnaExpressionWorkflowaef89b97-f417-4b85-8e95-1aa4b5a3ab2d_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "0304f4cd-59f1-430a-a650-c18d37a1ffa5", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50337, 
+  "md5sum": "ba8e2f4ccacb91258cf75c795f9fb08b", 
+  "file_id": "f2a6e7c6-9a8c-485a-b1ea-a501c735ea2f", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JJ-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "9ec86c06-e7a9-4ea6-b36d-6f832909054b", 
+      "entity_id": "9635a2c4-fd8b-4b4c-9338-def32b6dd8d3"
+    }
+  ], 
+  "file_name": "bb41c669-640f-4939-af58-4f1ccb155f50.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_51_MirnaExpression4b0f0ce9-7c2e-4b78-942b-4e2fb0c7de73_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JJ-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_51_AlignedReads4b0f0ce9-7c2e-4b78-942b-4e2fb0c7de73", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 115399108, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "79b336b8d9b5903263e7f89959cb0e49", 
+        "updated_datetime": "2018-11-15T21:38:44.655215-06:00", 
+        "file_id": "b6913f21-7b56-4da6-b1e1-dce0240ebc8e", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_51_MirnaExpressionWorkflow727f5a99-3199-409f-868a-f93d3b69641e_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "a0a42e20-1ee2-494e-9da3-3da571387f0c", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50455, 
+  "md5sum": "c8038b61abb50687d459fdd3526e2eb5", 
+  "file_id": "53e1d403-a733-4d06-b6df-450c46f042ee", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JR-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "a19104d6-b6a6-4878-af2c-783679070a05", 
+      "entity_id": "66a354fe-454e-40a6-8464-a7d97236d398"
+    }
+  ], 
+  "file_name": "95a5ee60-4aad-49c2-9431-262c4561d77a.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_2_MirnaExpressionda8e908a-475b-4fff-a008-5a8c8f72424f_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JR-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_2_AlignedReadsda8e908a-475b-4fff-a008-5a8c8f72424f", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 186520142, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "07b41face8ce34c53353f3434c94ff7c", 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "file_id": "6b21b4f7-72ea-47e1-b9d3-00558db93962", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_2_MirnaExpressionWorkflowee40e9c1-2d51-4127-83d2-bb2e568ae846_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "d6056e09-3055-4233-8e69-0fbbcbcc93ff", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50294, 
+  "md5sum": "9d29da90437fb389b88d3e380ec67c13", 
+  "file_id": "17a2f7f7-c4ec-463e-99e2-d144542d7c67", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5J9-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "a53e9117-0a49-40d8-af40-7867370b671a", 
+      "entity_id": "172062d1-53dd-48d1-95a6-353d2079c244"
+    }
+  ], 
+  "file_name": "de3084ce-b0dc-492d-b927-5ad207d698e4.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_59_MirnaExpressione37cbd55-b8eb-4154-b306-dcabf4d0bc43_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5J9-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_59_AlignedReadse37cbd55-b8eb-4154-b306-dcabf4d0bc43", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 156018197, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "d81f4c9c9deebc34598ddae2ba11ff75", 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "file_id": "6e842278-c925-4ce2-bdac-9a68c3c1761b", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_59_MirnaExpressionWorkflowf2aeaaae-f593-4b43-ae15-6d43211eb16f_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "5a5078c6-122e-4046-b91f-2665143bec65", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50230, 
+  "md5sum": "a62b4f1458a3e1f4f06dcffea32d19be", 
+  "file_id": "55066c31-b961-42f2-b923-91dd83287e6e", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JL-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "0acc28bc-d348-41df-8f49-bc0332eb9be4", 
+      "entity_id": "a66c34f7-2b5a-472b-92d8-f8aeba1a1f2f"
+    }
+  ], 
+  "file_name": "a3e24a01-b58a-4aa1-a7be-870f2bc14960.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_76_MirnaExpressionb2703d42-10b6-42be-a454-fbe094a76424_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JL-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_76_AlignedReadsb2703d42-10b6-42be-a454-fbe094a76424", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 146777277, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "ab59aa7b4fed3fc924f657acee09a3ca", 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "file_id": "def208ea-cc61-4401-9f23-4fa6a31a9676", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_76_MirnaExpressionWorkflow58ebd0c5-4bc3-4603-9e5e-47a1c0ffab7e_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "335d0689-5c48-4151-9a0a-be4200cbbf63", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50442, 
+  "md5sum": "3b45f46e9d9ce8922c32d474006aa74f", 
+  "file_id": "d4c90a45-cd7f-4f79-b392-726dcbbd262a", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5J7-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "075dbfd0-9cf4-4877-884f-ae858902c79e", 
+      "entity_id": "8df42e9b-192b-4348-af21-24fa631adc98"
+    }
+  ], 
+  "file_name": "f09af767-419a-4c8a-a553-3fcc277f8fb7.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_29_MirnaExpressiondb57aab6-a53d-45d8-bad9-29b3b97a80e4_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5J7-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_29_AlignedReadsdb57aab6-a53d-45d8-bad9-29b3b97a80e4", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 162114613, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "bf1e867e95faf9a7deb835b44a36531b", 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "file_id": "dc220b08-6961-4258-8ced-de431592baaa", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_29_MirnaExpressionWorkflow2ecf6141-2558-450d-8194-9c748e8e90c8_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "fedf4b18-626f-4ee8-9262-cbd7ef50a136", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50404, 
+  "md5sum": "9f9af839d9b1f16ededbfbdec4a05824", 
+  "file_id": "70344313-e9a0-46fa-8c54-c01f01a3896b", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JD-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "240dca72-76e0-4d57-978d-1242e6e7ed68", 
+      "entity_id": "3db46049-e447-40a2-8e2a-f8befda0961f"
+    }
+  ], 
+  "file_name": "4ebf2241-8aaa-4fa8-a164-5973214c8769.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_79_MirnaExpressiond2b87353-e885-4db8-9e4b-0325b6071aa3_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JD-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_79_AlignedReadsd2b87353-e885-4db8-9e4b-0325b6071aa3", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 127878174, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "3e219bd521c4d16c4764478719861f9b", 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "file_id": "92bc5fa4-8e1b-458a-ac63-c8f44c2ceeea", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_79_MirnaExpressionWorkflow4fc6d007-e50c-484a-82ef-3ce1a72c5d4a_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "44f572f4-e1cd-4c0d-a481-9f76c67110d6", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50236, 
+  "md5sum": "1fb5232e9ee7d1f639bc64186c544b79", 
+  "file_id": "a746988c-05b0-4c50-9633-94fec96c430b", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-P6-A5OG-01A-22R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "0824b246-9fa2-4a8b-ad4c-1ffc7731bf7d", 
+      "entity_id": "677a063a-1c28-4515-b197-783367317f1e"
+    }
+  ], 
+  "file_name": "cc23f763-0708-4b07-82b5-b743e42c5e5e.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_64_MirnaExpression22397786-9844-4e26-898c-e3d10c2b4c06_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "annotations": [
+    {
+      "entity_submitter_id": "TCGA-P6-A5OG", 
+      "notes": "Prior Osteosarcoma with Cisplatin, Methotrexate, and Adriamycin given to patient prior to TCGA specimen.", 
+      "submitter_id": "20691", 
+      "classification": "Notification", 
+      "entity_id": "0824b246-9fa2-4a8b-ad4c-1ffc7731bf7d", 
+      "created_datetime": "2014-06-12T00:00:00", 
+      "annotation_id": "5bbf3dc6-ea9a-58b1-998b-b8a46ba2d910", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:32:20.747393-05:00", 
+      "case_id": "0824b246-9fa2-4a8b-ad4c-1ffc7731bf7d", 
+      "state": "released", 
+      "category": "History of unacceptable prior treatment related to a prior/other malignancy", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-P6-A5OG-01A-22R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_64_AlignedReads22397786-9844-4e26-898c-e3d10c2b4c06", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 126769460, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "c2e254bfacf5949f1d1cf8520a9a4037", 
+        "updated_datetime": "2018-11-15T21:30:06.924734-06:00", 
+        "file_id": "99e1f2c5-f2f7-445d-a278-b736f97e709d", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_64_MirnaExpressionWorkflow8a3e8f78-1812-4826-9e39-1f8f9b82154d_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "1a8f5c8f-d29b-406d-b6aa-2447f6316e7a", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50318, 
+  "md5sum": "a8834b654bb7e092219d5e8a7db6f54c", 
+  "file_id": "d7f8b843-fe0a-4d77-b319-a1010c631f32", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5J8-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "08e0d412-d4d8-4d13-b792-a4dd0bd9ec2b", 
+      "entity_id": "f97acdec-621e-43e5-9536-39b2657c70c8"
+    }
+  ], 
+  "file_name": "748c1659-fb5a-402c-b11a-947022289ed1.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_53_MirnaExpression9b5ef906-4613-4825-ae89-8d3fce1a392c_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5J8-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_53_AlignedReads9b5ef906-4613-4825-ae89-8d3fce1a392c", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 124489758, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "29b2039c804d675cef91f6b202f4e289", 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "file_id": "1ff7456a-01a1-41b6-80f5-b1acf685f7b6", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_53_MirnaExpressionWorkflow34afe35b-1605-4815-bb16-68a176d0633f_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "499715f7-3d57-49cb-aa01-b04d08be451e", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50429, 
+  "md5sum": "3bbeb3da0a06555cfc42053072ca6d45", 
+  "file_id": "9c3cf111-de92-4f56-b6a2-2c1d4d1fe773", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JP-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "0b73cbba-5520-4610-b649-912d76114033", 
+      "entity_id": "b81decf4-add7-431c-957b-22c4dbd91901"
+    }
+  ], 
+  "file_name": "ddb94cb0-a6b0-4fb7-9f68-e544a5811075.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_9_MirnaExpression0594a505-58a8-4118-bd0e-765f92f3fb9c_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JP-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_9_AlignedReads0594a505-58a8-4118-bd0e-765f92f3fb9c", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 203020441, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "08c242c4023ccbd514af3132f03ea5ce", 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "file_id": "28bddee2-557d-44d9-a2e2-a3e85ba21981", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_9_MirnaExpressionWorkflow656a9b63-5438-4fc8-9b96-f087a8d2ef47_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "04165d47-9d95-4615-8767-89b938269ead", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50453, 
+  "md5sum": "054dedf825c4248a23ea67c9b396775d", 
+  "file_id": "2eb8987b-0269-4b79-95be-2baa18bb48f5", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LP-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "dfef51c8-6050-4ebb-b25c-e74919397244", 
+      "entity_id": "54eb7022-b75b-4989-b701-329b2926814a"
+    }
+  ], 
+  "file_name": "c44d3fa7-7c6f-438e-b18c-74ce8b8dbfd6.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_5_MirnaExpression9b75f540-72e1-4804-8c4f-e83bf449f10a_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LP-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_5_AlignedReads9b75f540-72e1-4804-8c4f-e83bf449f10a", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 164790972, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "6876652493b11a4b640dea3320056f21", 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "file_id": "6f70ae84-d370-4815-919c-e0219a61accc", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_5_MirnaExpressionWorkflow6e08c937-4409-41cf-9fa8-76e708a0c4e4_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "5f12505d-841b-45d9-979b-c083a846b21e", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50182, 
+  "md5sum": "8db31be82e00128c2b2f6ff88edf8453", 
+  "file_id": "b3995d6b-cceb-4634-89f4-8692de5284af", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LB-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "fb504e55-1859-48ee-aec7-a3fcb082785e", 
+      "entity_id": "981ec7dd-d76b-49f0-9e74-b923fa7ebe1f"
+    }
+  ], 
+  "file_name": "63ef376f-0062-42d6-9c5f-75da5b2d99de.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_15_MirnaExpressiona5a32aad-b72f-4ddc-a517-d7bac7fdf8c5_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LB-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_15_AlignedReadsa5a32aad-b72f-4ddc-a517-d7bac7fdf8c5", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 179219348, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "60fa1e51134d31dd4c6863344a36ed57", 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "file_id": "78e9fde1-664c-4c38-8e54-9e50bef03523", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_15_MirnaExpressionWorkflow8d7ce5cc-fb3c-40af-aefa-427699d50d40_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "94fbd1eb-5c04-437a-b7f1-d996fa715c47", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50344, 
+  "md5sum": "a4cc8f39e9bc0049c7cde83db71b1bdf", 
+  "file_id": "06eca1c5-b1d4-483e-95e3-26fc95b31dc9", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JM-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "fb54458d-c373-46c2-841e-82663e13efaa", 
+      "entity_id": "b5a63033-f14b-4040-b2b2-8acf9c9ba6d4"
+    }
+  ], 
+  "file_name": "e5628bab-0457-4e03-9a98-f81f59c37238.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_69_MirnaExpression4d7bcf05-7ea2-43d4-aaef-2e03fc8287da_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JM-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_69_AlignedReads4d7bcf05-7ea2-43d4-aaef-2e03fc8287da", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 265928184, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "50eabc50d0ca3491a2277eb533602148", 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "file_id": "85d5179b-0de6-4050-a26f-c02a02058783", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_69_MirnaExpressionWorkflowd5466398-248a-4d8b-afdb-4c4fc8eb531a_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "60a85d07-78bc-4cb0-b616-bbc907f229b4", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50307, 
+  "md5sum": "90babccca3297147c73239924054ab2e", 
+  "file_id": "6fa5c99f-7873-47e6-9764-274b343cfb7e", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LS-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "f63946ec-ddcb-469a-8f5e-74366b7f419b", 
+      "entity_id": "e6247159-01e1-40d2-a2bb-804b7d8f8ca9"
+    }
+  ], 
+  "file_name": "5c54f5d2-1342-4a41-940e-16daf0d00dfa.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_27_MirnaExpressiondaa6d16c-fae3-478d-a88e-eb43477d4c66_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LS-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_27_AlignedReadsdaa6d16c-fae3-478d-a88e-eb43477d4c66", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 172704838, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "ee3fb61a7cde1eae5159e00e39c3a2c2", 
+        "updated_datetime": "2018-11-15T17:21:45.437138-06:00", 
+        "file_id": "01691fcf-68f3-407d-b5f6-326081bcc716", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_27_MirnaExpressionWorkflow7f9a4f1c-21d2-42ac-92dc-3c693024de12_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "316ff991-8fd2-4ed5-aec6-0fb579df6e59", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50435, 
+  "md5sum": "7e6c83389d1cbd252de3e12c28b005f8", 
+  "file_id": "de356cfe-5ece-4247-b1c2-0db70ce43aa6", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LE-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "c4dd9501-c193-45fb-8535-a9d901520bdd", 
+      "entity_id": "d1dac84f-3362-4f7d-85ff-445c1fc55aaa"
+    }
+  ], 
+  "file_name": "1699b3f4-cf82-4d46-a247-933d372121da.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_7_MirnaExpression494b4e85-dbf7-4cb7-b169-1c64e53e12d3_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LE-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_7_AlignedReads494b4e85-dbf7-4cb7-b169-1c64e53e12d3", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 422416380, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "bcc76eab1b722da8720286f1a2725657", 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "file_id": "1b1ffe11-0d20-41c9-b69a-bb2e76c542ac", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_7_MirnaExpressionWorkflow023dab8a-9275-4d92-8eab-0597dc59701c_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "75ccd099-2d60-4908-9065-453fdc42ae7a", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50625, 
+  "md5sum": "42f00698660adbada03525aac010040e", 
+  "file_id": "67ce6fea-e195-4272-a324-f6dfb8376fee", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LM-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "e612ef6e-f3f2-44be-ab15-8e4095687cd6", 
+      "entity_id": "7bf3993e-37c1-4cae-a05c-9a637bb74189"
+    }
+  ], 
+  "file_name": "b0ca0129-02ec-4e58-ba69-724251acb4df.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_48_MirnaExpression947a261e-3d56-41a1-a4e0-f0d346be0dd2_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LM-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_48_AlignedReads947a261e-3d56-41a1-a4e0-f0d346be0dd2", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 58256217, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "5f68d5c22cac55c71325e6994313829b", 
+        "updated_datetime": "2018-11-15T21:30:06.924734-06:00", 
+        "file_id": "a8705667-eac7-4345-94de-2dd311bbe53b", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_48_MirnaExpressionWorkflow4ead75d1-66df-4374-9134-b2d95bc3aec6_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "5b4797a8-2069-49bd-9b1a-01047b462799", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50254, 
+  "md5sum": "b631bd78dd6ae36d13a7514dec455758", 
+  "file_id": "b0b2c4f2-4bf4-419d-a1f1-c5a8ca98d4f2", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JI-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "b7adb786-1f81-43ca-ac72-7243966cd439", 
+      "entity_id": "6a8f9385-2064-4d8c-9af1-d2bed53afebb"
+    }
+  ], 
+  "file_name": "ca604eb5-6b77-47e7-b646-3ba52adaf425.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_49_MirnaExpressioncdd3dc11-0c75-45c9-ba13-a08a158b9d02_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JI-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_49_AlignedReadscdd3dc11-0c75-45c9-ba13-a08a158b9d02", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 239465644, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "132fa9030a6010d895270043072c1c97", 
+        "updated_datetime": "2018-11-15T21:47:23.001784-06:00", 
+        "file_id": "cb4bf71d-eca3-4c23-9035-95a02fb5b687", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_49_MirnaExpressionWorkflow01cd4643-447a-49bf-be94-631ffcf82a07_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "b4fceca5-134d-405f-90d9-26e5b76adbcd", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50392, 
+  "md5sum": "d95f7c09efad613d65f95794e2e157bb", 
+  "file_id": "24424426-2459-4754-92d7-32fbeb60063f", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LA-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "e93ca89f-ca48-43ca-bf1c-adc7491c0fe5", 
+      "entity_id": "16da7452-fed2-4010-8548-58e70acd6c5a"
+    }
+  ], 
+  "file_name": "99758f81-d3b4-47ba-9959-188c2a915d91.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_36_MirnaExpressiond3ac73a9-9d6c-4747-bc1c-a32018f66a74_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LA-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_36_AlignedReadsd3ac73a9-9d6c-4747-bc1c-a32018f66a74", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 199155586, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "beca889d96645d51142d844cfd809001", 
+        "updated_datetime": "2018-11-15T21:38:44.655215-06:00", 
+        "file_id": "b8150660-a4db-4117-984d-f5a12a923807", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_36_MirnaExpressionWorkflow9a5909fe-d192-427a-9487-b3a0480f3d27_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "bca0ed75-264a-43b9-85d4-fc7e28f4b0e2", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50472, 
+  "md5sum": "a6360aca63b7eec44240bf44265dbfb7", 
+  "file_id": "72216f2f-405d-4b0e-a473-8d2292b05fc4", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5K0-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "edc62c30-cacc-457d-96ba-d05ed35432a3", 
+      "entity_id": "fb2f8a06-1842-4a18-8938-79d54370ce01"
+    }
+  ], 
+  "file_name": "1c889339-4156-4500-b162-6a899ddcdeed.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_16_MirnaExpressionbe73e0b3-2fc6-4247-a76e-4a97b298ccff_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5K0-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_16_AlignedReadsbe73e0b3-2fc6-4247-a76e-4a97b298ccff", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 228938367, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "8d3c95e3a96e5e3ee1d6c603279802e1", 
+        "updated_datetime": "2018-11-15T17:21:45.437138-06:00", 
+        "file_id": "03948bea-8d59-4ae9-b03d-91a7509961f2", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_16_MirnaExpressionWorkflowbe994b22-8647-479e-a1f8-1c981fea0f42_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "ce562d3f-bed4-47ce-8489-5c2dbbe940f5", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50308, 
+  "md5sum": "b6ffc7d4a5d90376fae3c00b266a13ca", 
+  "file_id": "231daf28-84c7-4099-be20-59474c961eb3", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LJ-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "fc83ab27-929e-4ad4-ba18-abb0694f1e43", 
+      "entity_id": "88271ae2-c8e5-489d-a0de-1966c7a68703"
+    }
+  ], 
+  "file_name": "5e14c152-904b-433e-9b72-cbe9b3e31df3.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_44_MirnaExpression89a61bd2-d97b-4d4f-a6f6-e8b8dd20a90d_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LJ-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_44_AlignedReads89a61bd2-d97b-4d4f-a6f6-e8b8dd20a90d", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 112124899, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "e9592b281916dd73f01370421ff189fe", 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "file_id": "3b941a1f-3ed0-42c4-8ec9-05c9436c2882", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_44_MirnaExpressionWorkflow9d07c507-0b94-43dc-9e0e-9c64d9796040_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "13858b4d-f594-48a2-84ee-9e0cedfa383d", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50291, 
+  "md5sum": "45bd8fdb8d91b2003f5d58e6c6ff55ec", 
+  "file_id": "53b50f54-b80c-4e19-b3f9-739c3e60663a", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JE-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "bafe2638-4adc-4957-9d62-d7eebe5dd2f9", 
+      "entity_id": "94216633-5cf1-4640-a284-56bec53850aa"
+    }
+  ], 
+  "file_name": "7c3184cb-6d43-46c3-9c64-095ea1136d4a.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_21_MirnaExpressionbaafe19a-68ae-4db2-8991-e192d9c3cbdd_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JE-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_21_AlignedReadsbaafe19a-68ae-4db2-8991-e192d9c3cbdd", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 193996151, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "d4aa33222c1feeaa4d82e4de4e22bc0d", 
+        "updated_datetime": "2018-11-15T21:30:06.924734-06:00", 
+        "file_id": "a5561628-b9cf-4916-8961-05aa54bbd1d7", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_21_MirnaExpressionWorkflowfc847255-3773-47ff-8b7c-d0f0afa83f9a_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "b9aea50f-6e1b-48b2-a457-ed74b3c59be2", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50489, 
+  "md5sum": "49af8dc820f6ef67b97afe9d0982164c", 
+  "file_id": "357c3d01-d6b4-4dbb-b58b-b35f8459a00b", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LL-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "0304b12d-7640-4150-a581-2eea2b1f2ad5", 
+      "entity_id": "2409f255-8f3e-4376-8ebf-cbbbefbb2361"
+    }
+  ], 
+  "file_name": "715edba5-40ba-4a55-8e50-c886c791d3b9.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_40_MirnaExpression744e7d3a-6c9f-4fb6-b952-fbf7f412b8a0_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LL-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_40_AlignedReads744e7d3a-6c9f-4fb6-b952-fbf7f412b8a0", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 192608430, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "d91fb03fb2890b5a3b69ce6bfd3f864c", 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "file_id": "3447e319-75c5-4d43-9687-220fe31706a5", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_40_MirnaExpressionWorkflow6c937fad-f642-47a8-a858-28f3d738e8fe_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "d6947715-bca3-4690-a923-9d68d0ff532d", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50282, 
+  "md5sum": "b5b4849931de4586002806f61ee09eb4", 
+  "file_id": "c7705744-8d90-4598-94d9-fa59efe112ea", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5L5-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "2f04e760-8a64-49f2-a1d6-3d390604745c", 
+      "entity_id": "d3b6ab10-20aa-41ed-af74-fbe5f1beedc4"
+    }
+  ], 
+  "file_name": "3d06e801-281c-4688-8aee-5ee68b29abe4.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_77_MirnaExpressionbad76f74-6f87-40ad-8baa-00a22e399e49_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5L5-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_77_AlignedReadsbad76f74-6f87-40ad-8baa-00a22e399e49", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 116022383, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "f56ca96d4332c6683cbb6d9d487743b2", 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "file_id": "5b699b91-9074-4ee4-b688-31ef1303999b", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_77_MirnaExpressionWorkflowa322afa6-5346-4c80-b95d-4d8fe765847b_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "a5a76c29-7b3c-491a-ac94-bfa23eb336ee", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50380, 
+  "md5sum": "82438a88c4083f6df3888f8ea57d3a9d", 
+  "file_id": "65553152-0c14-47c4-8d8c-bf7e9c15576e", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5K2-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "6d980941-219e-40a0-9b41-e84c3fb0bd1a", 
+      "entity_id": "832c14fd-3856-4de0-ae3b-d1489bea83c1"
+    }
+  ], 
+  "file_name": "df305143-0a9e-48c4-a394-a122b76102b6.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_25_MirnaExpressionaf888ab0-960e-4a7d-a950-dc5f46d3742a_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5K2-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_25_AlignedReadsaf888ab0-960e-4a7d-a950-dc5f46d3742a", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 185691080, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "1d6a0828d5e375d8b48aa964ef62f5b1", 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "file_id": "1b243ff3-0b90-4128-858f-847de5f80269", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_25_MirnaExpressionWorkflowe47b903b-466e-4461-864a-9bcb93514ee4_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "db66f598-c474-4d21-bc7e-3dcf93aa9ecd", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50395, 
+  "md5sum": "fd04dddc8766cd478fdcd0fff2913b26", 
+  "file_id": "db7a6124-4fda-4e1c-aa66-98b9a47444f1", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5K4-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "70f1569e-f8f5-4f1d-bf18-d0586b29077d", 
+      "entity_id": "c7af4731-45fe-4988-90c0-6dab28d1b1b9"
+    }
+  ], 
+  "file_name": "38952649-be86-4aec-9052-7f0449aec2d8.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_39_MirnaExpression0f95c6f0-56a5-4072-97cc-2b8011aef0b8_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5K4-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_39_AlignedReads0f95c6f0-56a5-4072-97cc-2b8011aef0b8", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 217809249, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "fcd0497f7bb90998ef6be675cf0c972c", 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "file_id": "7cd7c338-58dc-4a3b-b251-b322e292d82b", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_39_MirnaExpressionWorkflow4fbb8b61-9f20-4b08-b5a3-65d9af8932bc_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "73604f5d-8a4e-430d-8e2e-f7bcc3cf4358", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50567, 
+  "md5sum": "53e8e3506cfb34f4a7ac759a881b1585", 
+  "file_id": "2379bb95-743d-4011-a946-f082389a9b04", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JG-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "71892706-f8b6-44e6-8de4-6cbb43f612e0", 
+      "entity_id": "afef1098-9b00-4aa2-b141-23c0a6643e88"
+    }
+  ], 
+  "file_name": "d5f66113-651c-46dd-b9f9-7289ba6c0a17.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_12_MirnaExpression106c0253-8434-4584-87ed-48b428f995bd_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JG-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_12_AlignedReads106c0253-8434-4584-87ed-48b428f995bd", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 139225843, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "336283c3f7ba341c5a0112c86893691a", 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "file_id": "87e7f904-7a00-4a04-973e-66152260a20e", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_12_MirnaExpressionWorkflow83c6fb14-5879-4eaf-bfd0-68f69f0c835f_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "bae424a4-857e-4d88-948f-af95bb491aac", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50365, 
+  "md5sum": "6e4e6b6c69271c72ae89d64efa419232", 
+  "file_id": "fc0f35a9-4822-427a-90db-f014e4ec9f5d", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LR-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "723eb689-7b4f-4758-bcdf-426b12508935", 
+      "entity_id": "440608f5-5a2f-4cf6-bc06-0c8e1c2ec100"
+    }
+  ], 
+  "file_name": "4bbd7e2f-1bb6-49d5-b977-9b5396c6ca00.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_23_MirnaExpression462402d5-7cba-4e9e-9069-6fdfb904a562_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LR-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_23_AlignedReads462402d5-7cba-4e9e-9069-6fdfb904a562", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 202538860, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "7fb372565d6e3949a7b30b6822a77f73", 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "file_id": "1fdc56d8-e48d-4f03-9238-dcb456b53f95", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_23_MirnaExpressionWorkflow2eca0ded-4734-40f6-92be-2d07d37b53dc_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "49c44fd4-c946-42c2-ad62-62b34f266609", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50341, 
+  "md5sum": "af586b1b2a73a9758c5a59832afc864b", 
+  "file_id": "d7c39b1d-ffbf-496d-9ef4-3b7b0ff9b847", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5J5-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "802dbd0d-ef07-4c91-ab8d-1dd39532e947", 
+      "entity_id": "290f101e-ff47-4aeb-ad71-11cb6e6b9dde"
+    }
+  ], 
+  "file_name": "313caa08-1919-446f-8050-6849f6bc7052.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_30_MirnaExpressiond44aa53d-2344-4ca6-9de6-73f85963ddce_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5J5-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_30_AlignedReadsd44aa53d-2344-4ca6-9de6-73f85963ddce", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 218898539, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "321f909369189c7a74a75fad363ae462", 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "file_id": "29a21572-bbc0-4d6b-8445-53518f1984dc", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_30_MirnaExpressionWorkflow4679cfdb-85d4-4b64-9034-e42881e05762_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "d12f838d-a029-4a20-ad0d-b5887ea4010e", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50527, 
+  "md5sum": "c36fba9772fddf1c907967c5f4d31764", 
+  "file_id": "5c900235-c16d-4906-b102-e87ef5e93b8c", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JS-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "82940e94-ac74-4a9b-9da5-9e4b7d4d45c0", 
+      "entity_id": "cb87c1b0-e6c8-44fe-963a-31773ace6181"
+    }
+  ], 
+  "file_name": "ce80346d-c285-4964-bf56-48d6d782e278.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_41_MirnaExpressionaf06d114-9483-48c7-a456-5c3f4077c375_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JS-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_41_AlignedReadsaf06d114-9483-48c7-a456-5c3f4077c375", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 193820018, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "a989f6c0d8e69debb9762c70eccd013b", 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "file_id": "7e46a609-c2e4-4c59-955f-d9f5a02fa930", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_41_MirnaExpressionWorkflow1364b660-d983-4dd4-a0da-2bc1cb70da89_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "c921bdea-5a1d-4986-838f-3c89d0d1ad8f", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50426, 
+  "md5sum": "9a4a318e0784308065665e6d7c462150", 
+  "file_id": "c8add7e0-0987-44d6-b1ca-3d225019b9f9", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-PK-A5H9-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "83e7b9f8-04a4-440f-aafc-7a8e9ddff284", 
+      "entity_id": "e7ce147a-90f6-49f5-a389-42557a595412"
+    }
+  ], 
+  "file_name": "72226df6-f534-45ee-8f82-a032813e67ee.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_20_MirnaExpression6bd0c8de-0923-472a-9a23-a5f4430394eb_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-PK-A5H9-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_20_AlignedReads6bd0c8de-0923-472a-9a23-a5f4430394eb", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 260634391, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "470ea7c6d976da05cf0991a28c590381", 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "file_id": "16b6faf5-ed58-4e0c-8504-a342e11bd236", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_20_MirnaExpressionWorkflow649cf800-35ad-4e29-9b5c-545ae1748755_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "fe5b64a4-f4e9-44fd-9653-f792ab40c769", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50482, 
+  "md5sum": "ee99542b1234e78bfc41e8c1978d975b", 
+  "file_id": "7446efaf-0c5b-4e3f-b7d4-eb687b24814a", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-PA-A5YG-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "8b3649e3-16e2-4044-8ab8-f4d28a87e513", 
+      "entity_id": "acf45482-bab9-4eb8-b1fe-3a3c2a4b2572"
+    }
+  ], 
+  "file_name": "9c94ee34-3e4e-4fac-9919-e1905be80632.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_57_MirnaExpressionea596575-c77a-4c88-bbc3-254b271e9ca8_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-PA-A5YG-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_57_AlignedReadsea596575-c77a-4c88-bbc3-254b271e9ca8", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 246766910, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "17762f316d9e19085d47d3ad473a6d5d", 
+        "updated_datetime": "2018-11-15T22:04:38.004773-06:00", 
+        "file_id": "f0e2d0f5-c6c0-4aad-af49-d531124c5df4", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_57_MirnaExpressionWorkflowf62d18fe-0f2a-43d1-9762-f6b7699e1fcc_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "e13eece2-4138-429a-9003-aadd915a5c30", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50299, 
+  "md5sum": "dc48ba4eeaac59ead147756b04bebfef", 
+  "file_id": "236c29aa-3aa4-4764-b13d-7f4df6e029cc", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5J2-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "8e7c2e31-d085-4b75-a970-162526dd07a0", 
+      "entity_id": "a33692d5-e688-498c-bb3f-8c22cf38d7a0"
+    }
+  ], 
+  "file_name": "ad0a2b17-2af2-467d-a9b1-2f5e89367910.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_71_MirnaExpressiona272b0bf-263f-43fa-b195-d4bfce6dda44_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5J2-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_71_AlignedReadsa272b0bf-263f-43fa-b195-d4bfce6dda44", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 300822903, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "2bdef2c3ee77e56b98ad6516c1fc7712", 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "file_id": "83972c9c-dcf5-4116-ba73-2cc9c0e86366", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_71_MirnaExpressionWorkflow538bbac0-78e5-4f9b-836a-4ae43da0f55a_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "1b7affbf-13ef-4c1a-8d71-533765b0db97", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50395, 
+  "md5sum": "421c91f3c9dbcb2ab5b4800eb4b72ec4", 
+  "file_id": "997f31c0-65d6-45d8-abd0-7967d3a68e35", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5KZ-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "99f86b57-3894-45c5-bfbe-c757c69a3050", 
+      "entity_id": "4fde6436-41e9-4bd0-bd7c-bf0b63e310fa"
+    }
+  ], 
+  "file_name": "3c40c548-b508-44e5-ad25-798555bcd1f6.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_67_MirnaExpression2a9389c8-7418-4d79-9a0f-c955216f6dbe_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5KZ-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_67_AlignedReads2a9389c8-7418-4d79-9a0f-c955216f6dbe", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 384745485, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "023f86c9341b418515ff48853c4a0ddb", 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "file_id": "39b0086f-3646-4cea-a31c-84e3075ad53e", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_67_MirnaExpressionWorkflow720ab0a5-a1f7-4102-8867-a23f7a9becc8_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "d9b6a9b1-5c44-448f-a942-88c1a2870627", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50573, 
+  "md5sum": "1614702e52d64f0067890dbd3c795037", 
+  "file_id": "a44865c6-16ef-4be2-b37e-a90e03e470c4", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-PK-A5HB-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "9a8ea017-0152-48b2-accb-d040deb1c6b6", 
+      "entity_id": "b7d7e6c6-257e-4933-b840-5638078556ce"
+    }
+  ], 
+  "file_name": "7d124a29-7dd4-496f-afed-be34e4a675c2.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_47_MirnaExpressionb85e7182-37cf-4454-b654-1122d8145778_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-PK-A5HB-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_47_AlignedReadsb85e7182-37cf-4454-b654-1122d8145778", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 393636064, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "91974e739755d38c7c3113c6453d74f7", 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "file_id": "455ba9be-12f7-447b-aa3d-e236da9cf866", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_47_MirnaExpressionWorkflow78cc25fa-7fe9-4ca5-bbc1-99a0ffe7356d_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "39bbdb74-8f37-4f05-809f-9e6b7af02c15", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50465, 
+  "md5sum": "1283284b6db02bf606e0a2564714cd9f", 
+  "file_id": "d92faa23-bdcd-48d9-aa0b-c2ac34ce52ce", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JK-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "a477b55d-a591-482f-a554-d8ef7298c23d", 
+      "entity_id": "c0d609c0-049d-4d1a-b991-a212208cff71"
+    }
+  ], 
+  "file_name": "37adc34e-eec0-4225-a156-cee7bc3a2dd9.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_33_MirnaExpression207c8bde-a1c5-43f3-a8fb-f9e6261f7bed_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JK-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_33_AlignedReads207c8bde-a1c5-43f3-a8fb-f9e6261f7bed", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 322128957, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "806a8d5ced09695d95224d03dec19663", 
+        "updated_datetime": "2018-11-15T21:38:44.655215-06:00", 
+        "file_id": "b12bee79-07af-4307-ae05-4b981cad564c", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_33_MirnaExpressionWorkflowd10104cc-658a-46e0-819d-c78de911832e_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "83c35017-661f-449d-92c0-0e157c1054ab", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50579, 
+  "md5sum": "045213ffb432635f5d588ecd7544fc76", 
+  "file_id": "e41e96a9-18fb-4d9b-beed-638f16e0bc6b", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5J3-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "dfd687bc-6e69-42f7-af94-d17fc150d1a1", 
+      "entity_id": "7d1dcf1f-34a7-4cbf-b766-9d01715ffe70"
+    }
+  ], 
+  "file_name": "613c2a4e-cf16-4f1f-948f-a9ca8a6b84cf.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_37_MirnaExpression6396102d-3fd5-4c58-8db3-f6afdbd07878_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5J3-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_37_AlignedReads6396102d-3fd5-4c58-8db3-f6afdbd07878", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 176581184, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "a7f9b657c59671ffb3163ab7c8c80276", 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "file_id": "483f1556-1701-446a-aa6c-bc11acb2b91c", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_37_MirnaExpressionWorkflow6bf47fff-9540-46cc-b77e-4fe988cb66db_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "fd6e5646-5052-4b10-85e3-8115e2cd9dc1", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50441, 
+  "md5sum": "0eec5340073370a59922df5ffc9b1630", 
+  "file_id": "06c2d20d-63a3-4d75-8031-14e7fa5f4fe4", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JC-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "bdfcd747-f6a2-42e2-bc9b-483112205fa8", 
+      "entity_id": "25a9fd1a-0ff1-434b-bc4b-b78834750994"
+    }
+  ], 
+  "file_name": "04789ff6-3a58-4c00-b9c0-ac70bfebb71b.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_24_MirnaExpression54f99975-798d-4b28-89ec-fcf1292dc7ce_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JC-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_24_AlignedReads54f99975-798d-4b28-89ec-fcf1292dc7ce", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 180333637, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "b84f1c27a4543124d0586e5844cd81fd", 
+        "updated_datetime": "2018-11-15T21:30:06.924734-06:00", 
+        "file_id": "a28e699e-4948-4011-801a-28b71b24594d", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_24_MirnaExpressionWorkflow20705220-179a-418a-b726-24e2c3b6522a_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "b844d766-5ef1-4a00-ba34-fb981384e210", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50408, 
+  "md5sum": "14346fe4c6ded7d04544b69269b86d5d", 
+  "file_id": "47dc4026-ee58-4bce-ab61-e546ad5218c8", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JT-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "c0e1a036-be4c-4fb5-bb50-e2431be60ed4", 
+      "entity_id": "c8945d4b-96a0-4ea3-9e70-1d128735b13e"
+    }
+  ], 
+  "file_name": "3eb3d20c-d0b7-4841-931d-bef98abb70ca.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_50_MirnaExpression3c03037e-6d85-444d-8dd8-f57c7db5d008_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JT-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_50_AlignedReads3c03037e-6d85-444d-8dd8-f57c7db5d008", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 103235673, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "5e79516878c30034347b2d62bb41187c", 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "file_id": "6b4052b0-6e3c-4ef1-94f2-afba5c83ddb2", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_50_MirnaExpressionWorkflow5ecda663-0248-4bdb-9d52-8915d6cb75f2_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "1c61dc69-0d14-4290-808b-b6a36a791ff3", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50209, 
+  "md5sum": "61870e690a4232cd4ad7cddb0fb2076b", 
+  "file_id": "dfd9d2f0-5f04-4b9c-ab87-435ad1a4c883", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5L6-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "f13a3d5e-7f8e-4acb-ad46-f6380a9443e8", 
+      "entity_id": "ba6341a4-b64c-4944-9031-1d2a38f39492"
+    }
+  ], 
+  "file_name": "7d990f8a-b714-4c91-913f-500940c4e5e6.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_28_MirnaExpression5d0d8dd5-ae52-4fef-a3f4-67d9e1f93729_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5L6-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_28_AlignedReads5d0d8dd5-ae52-4fef-a3f4-67d9e1f93729", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 193153185, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "ffc092ee14ce89cf124162d64be297fe", 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "file_id": "75f3e03b-b6e5-461c-9269-c2958f1b38f0", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_28_MirnaExpressionWorkflow747b04f9-de98-4025-a743-9562b91b4cb0_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "a60595e8-ce00-430b-8ba5-3f8133d5411e", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50264, 
+  "md5sum": "9d2e2d4c2057eeffaae6f00fd3d8c6e9", 
+  "file_id": "41a9c476-a804-4a85-afa2-200adefa3913", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LC-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "f8954241-e541-406f-a09d-c3c987473732", 
+      "entity_id": "c472a9f1-ce1c-4650-b73a-7cbcedddeb4f"
+    }
+  ], 
+  "file_name": "12d0e519-2d7b-42a6-82f3-3d7483bdf4ba.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_4_MirnaExpressione4904fad-ae3d-43f3-840d-68b1748c1177_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LC-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_4_AlignedReadse4904fad-ae3d-43f3-840d-68b1748c1177", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 239812944, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "9c6b5caec0b4a76c1fded44a1c413422", 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "file_id": "4790aa76-fd03-46d6-b070-88792e982f34", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_4_MirnaExpressionWorkflow3b307dab-acc4-4d9b-8f66-5cafef1455d2_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "76620e70-05ec-4da9-aa39-720ca54d5fb4", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50431, 
+  "md5sum": "a8c54536222fb32de61f000f0f413663", 
+  "file_id": "4f42ef5c-d4e6-4788-a218-66180f11397b", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5K1-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "f8e77bb6-e521-4a6a-9cb4-4b58ee38ca7f", 
+      "entity_id": "817f3909-75b0-4479-9ae2-797192483ff4"
+    }
+  ], 
+  "file_name": "a8dd94b0-5aeb-4263-83b6-bc5764d6917b.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_13_MirnaExpressionf7301233-250d-4126-8dd5-670ac625cf89_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5K1-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_13_AlignedReadsf7301233-250d-4126-8dd5-670ac625cf89", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 178198265, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "18fadba6f2dc015c5e540c7dc8349925", 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "file_id": "354988b4-a822-4b21-a4a6-ba74f2a7d186", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_13_MirnaExpressionWorkflowd85e3fe1-42cb-483c-a2bb-4a4be30774af_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "4e787a6b-64f2-40a2-b78f-de3d0c9b8b57", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50255, 
+  "md5sum": "66453135affc4cc1d85631ef2a239a12", 
+  "file_id": "9a423118-b7de-4458-bd0f-5bb01efe4cf4", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LG-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "fad4b7e6-510c-4968-83df-3140ed5a0549", 
+      "entity_id": "ce867cae-e385-40f0-9861-c70e4ab04b98"
+    }
+  ], 
+  "file_name": "34649719-043a-45ca-9477-7dc297afea08.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_75_MirnaExpression8cb616b4-74ad-4321-b0e0-efaa3220ab0b_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LG-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_75_AlignedReads8cb616b4-74ad-4321-b0e0-efaa3220ab0b", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 204172387, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "bdd3dbd014d3c473db85c475bfedb448", 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "file_id": "8238af3e-f5c8-4ba7-8ddf-bdf704c1cf1b", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_75_MirnaExpressionWorkflow9291eec3-d2a6-4f8f-ba84-8f2c2d7926ec_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "0562c2bc-a82a-4e07-bebe-215711c9df1b", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50354, 
+  "md5sum": "38aca3e11e74bd983ba785f01b1d723d", 
+  "file_id": "94168c46-0a64-46e0-9b3f-bd5fbe088c0e", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5L9-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "c6312de5-dd56-4025-80d1-dbdd8568d047", 
+      "entity_id": "3d7b8e16-b5b6-4168-9c9c-c3e0384d837d"
+    }
+  ], 
+  "file_name": "0e78a0d6-cd49-4284-a064-a02b27598c36.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_17_MirnaExpression7050923d-0ac9-4d69-a523-67c2d56e805f_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5L9-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_17_AlignedReads7050923d-0ac9-4d69-a523-67c2d56e805f", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 267654996, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "13a9e314ef706eafa51471330f6dcc8c", 
+        "updated_datetime": "2018-11-15T17:21:45.437138-06:00", 
+        "file_id": "04a5c40d-de53-4e7f-8673-8579919aae74", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_17_MirnaExpressionWorkflow8d3e1fb7-5bea-41a0-b0d9-b334d6dddaad_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "54b76c75-d436-435c-867a-643626e69cb9", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50397, 
+  "md5sum": "5237233275999976137431bae6695f88", 
+  "file_id": "a2054cc8-c841-4e00-83be-3e95c0f9aa2d", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5K3-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "c72b973b-4719-46ab-ac99-05d14088d3bc", 
+      "entity_id": "23bf15e8-5062-4323-9015-55d7bca67746"
+    }
+  ], 
+  "file_name": "6db64098-563d-4b84-a709-50628dac32da.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_54_MirnaExpressiondf10d267-8bca-4c74-8d13-b0713813ec58_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5K3-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_54_AlignedReadsdf10d267-8bca-4c74-8d13-b0713813ec58", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 196675350, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "f14e55dfa36284744a32d36f0426998b", 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "file_id": "26be490a-a61a-4fdc-bd9b-728fe5f7f73a", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_54_MirnaExpressionWorkflow8849c029-22b4-4fdd-84fe-d848944c223c_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "a436fedb-bec3-42af-89c2-fcaa56737139", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50455, 
+  "md5sum": "7f52697c43dd85a8dd00df14efd21569", 
+  "file_id": "f49ffeda-cd7b-4382-ab04-8e67063022bb", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5J6-01A-31R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "c8898b42-b704-45a0-9829-144b98f416e0", 
+      "entity_id": "89ffedc0-67eb-4f69-943e-1562f59c4951"
+    }
+  ], 
+  "file_name": "e4bc6383-00e0-42f6-bd57-b31c874c98a9.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_26_MirnaExpressiona8af047c-cb0c-42ff-bcaf-5b6f8a054145_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5J6-01A-31R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_26_AlignedReadsa8af047c-cb0c-42ff-bcaf-5b6f8a054145", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 149816069, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "f9263747e968067105f79f694f777719", 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "file_id": "4a5d25c8-c98f-40f6-8934-00a19c0b4eef", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_26_MirnaExpressionWorkflowcbd39a6f-967d-40c4-ada2-74c545880a87_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "5bec89ef-c6d7-49ba-979a-2bba768ac10e", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50394, 
+  "md5sum": "04e490bc0b2403ed09648c13897263d2", 
+  "file_id": "32077f21-7a55-4365-b016-843e1eba9d5d", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LH-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "cf327482-199b-4604-ac19-c8b68d91c5d9", 
+      "entity_id": "3962cb8c-0e7f-4f9b-93f0-623fa0496b54"
+    }
+  ], 
+  "file_name": "e4b83221-39a0-41f4-96ed-d01a45ff708e.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_78_MirnaExpression8d7614e3-48be-42df-87b9-5dc51e7a5d75_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LH-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_78_AlignedReads8d7614e3-48be-42df-87b9-5dc51e7a5d75", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 139633782, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "f596ba1a243067f770535b73eaa4160a", 
+        "updated_datetime": "2018-11-15T21:30:06.924734-06:00", 
+        "file_id": "9c24f37b-3927-4b95-8c6d-67942ed3f35b", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_78_MirnaExpressionWorkflow4f40ffa6-6500-44db-8e8d-63f22fdf3843_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "174cdaf7-e9fa-49a9-bc93-464f9b80be58", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50344, 
+  "md5sum": "8be2dd3f40a1d26438309af6bad8b250", 
+  "file_id": "f07ca0d8-e52a-4bdc-904b-405e04cdfc61", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5K5-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "cf332daa-f335-4af1-81de-cbfdafb0f764", 
+      "entity_id": "0d211146-47bf-4662-b817-a1d8090d0425"
+    }
+  ], 
+  "file_name": "af35c400-5b78-41a1-8033-6442fe6631f6.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_32_MirnaExpressionc405c2b1-dc4f-4544-b9ab-f3d76b3562d0_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5K5-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_32_AlignedReadsc405c2b1-dc4f-4544-b9ab-f3d76b3562d0", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 115473370, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "bbda1fd24326776640d4b9c7c9857e66", 
+        "updated_datetime": "2018-11-15T22:04:38.004773-06:00", 
+        "file_id": "eea8118e-cf50-45e9-823e-b440d6ffccbe", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_32_MirnaExpressionWorkflow94e14e2e-aee4-4518-97cc-4cd0c4f5eccd_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "da60a1d6-8013-48af-b957-9a973d0c100d", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50355, 
+  "md5sum": "6b410ca7d162327673dc26c02a38de58", 
+  "file_id": "9ac1102d-5b27-4da9-b604-f8fa06dfac70", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JB-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "d63f2f1e-1970-445f-907b-23cf4d9efd83", 
+      "entity_id": "e4fe4b0b-198a-46b2-adb3-2f0b140502f8"
+    }
+  ], 
+  "file_name": "cd84dd86-5959-453b-91e1-442da952d3d1.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_38_MirnaExpression8da656d2-4ad0-482f-a2a3-163467b3cc69_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JB-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_38_AlignedReads8da656d2-4ad0-482f-a2a3-163467b3cc69", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 110013100, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "3bb1e7c10ef49f790ee2c19e755e6474", 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "file_id": "8cca8f75-5065-4b06-aa21-1fec1f8e8d4a", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_38_MirnaExpressionWorkflowccc5744b-3507-4b84-bdb8-c41007039a5b_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "f6eed0a5-2c82-4745-b618-e5f0dec42903", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50294, 
+  "md5sum": "d8eb948a201c236f6c54b642710f46f8", 
+  "file_id": "1acb5fb0-c96d-4963-8b0d-7cd738ee0463", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LD-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "d885b720-e813-4828-a731-b3cdcbd20687", 
+      "entity_id": "9d1619f3-e482-4090-a645-dcfbe420580e"
+    }
+  ], 
+  "file_name": "d7a1c115-eea1-47d9-8275-19fea1ddec6e.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_19_MirnaExpression091ad9b3-8fea-44cd-965c-e2f4aa87e8c5_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LD-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_19_AlignedReads091ad9b3-8fea-44cd-965c-e2f4aa87e8c5", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 279834445, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "27aa87493456ec2f6ee8677218b960f8", 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "file_id": "2a25f47e-5c9f-477a-9a63-e1df6f04e616", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_19_MirnaExpressionWorkflowa1aa9f25-f9f3-4111-af27-9614dea83422_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "1bcbc77e-9b3e-4379-9c85-545793bceae1", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50451, 
+  "md5sum": "5632ff52f1022182c220ddda21230daa", 
+  "file_id": "9014b571-2c6b-4aa6-9a4a-a2b942c592ca", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5K9-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "d890cbf7-41d8-4992-99c2-24c60c77b156", 
+      "entity_id": "c986ab6f-912a-424f-9957-ff34452339c5"
+    }
+  ], 
+  "file_name": "99db3588-db40-4a57-908b-7249ef786a70.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_35_MirnaExpression71f4c5a6-2199-4548-8dbf-abc23475abc6_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5K9-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_35_AlignedReads71f4c5a6-2199-4548-8dbf-abc23475abc6", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 180212786, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "742813382568119fea8f5a965bb15e84", 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "file_id": "4c4bccf2-abf1-4d3d-802a-1dd190c61c29", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_35_MirnaExpressionWorkflowe39adbf8-0dd9-4fec-8581-0f92e2793772_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "32806b16-a657-4491-aab2-69a96b89c995", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50358, 
+  "md5sum": "b6d0b68d2f9f25e42d3442ada2cd91d1", 
+  "file_id": "ea64d5f3-4b96-4703-90b6-b227fdc6111d", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JF-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "dafb9844-1a5c-4af8-b382-59c751942bb8", 
+      "entity_id": "56ac4bcc-479a-4560-b605-d4906e0768e5"
+    }
+  ], 
+  "file_name": "6f47ef19-5831-4cfd-ad2d-00a80a3cf359.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_8_MirnaExpression1432b9fa-8fe0-4e22-87c3-eda1acb4730e_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JF-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_8_AlignedReads1432b9fa-8fe0-4e22-87c3-eda1acb4730e", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 180652205, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "1f8d054b608337f1ddce2f1655c605bc", 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "file_id": "30490c74-bc8c-4e4e-ae1e-269bb3db95b7", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_8_MirnaExpressionWorkflow3f6ff421-128d-4ab7-977a-158064863b7f_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "bfd42faf-50aa-473b-9040-aeb713f80c7b", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50320, 
+  "md5sum": "34be046f8b9ff800f103f24eafc05675", 
+  "file_id": "5b45bfc9-2076-48eb-8ef6-a491285bfa0a", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5KT-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "de7f06aa-9638-4389-ac8e-711adfa0f2a5", 
+      "entity_id": "5f63ecf2-3931-4e84-bef2-412c050a4174"
+    }
+  ], 
+  "file_name": "58c9b263-03de-40f2-b5e6-e3535ad1d500.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_58_MirnaExpressionf6ff20c3-07b3-4f2d-a0af-4e73b80baa4c_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5KT-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_58_AlignedReadsf6ff20c3-07b3-4f2d-a0af-4e73b80baa4c", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 174847803, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "8dab6f2ab3c48e1772ec69d72b92a8fc", 
+        "updated_datetime": "2018-11-15T21:30:06.924734-06:00", 
+        "file_id": "9948f3c3-8e92-412b-8ebf-48d829b8267f", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_58_MirnaExpressionWorkflow02fac120-a748-4cf7-b310-88f1661d1120_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "0b999dda-0459-4a6a-a669-a2683a43f31a", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50482, 
+  "md5sum": "c19eb5dcb21db93f99c3af1e12943702", 
+  "file_id": "bb00fdcd-379a-4cf6-8b21-c11464a732d8", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JY-01A-31R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "344f7ea4-2bd4-4f2d-89f2-9fc7f572a3d6", 
+      "entity_id": "e1c7b750-a19e-4d93-9d1f-259fe446d87d"
+    }
+  ], 
+  "file_name": "e18a38c5-64f7-4590-bb80-9580544df2ae.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_3_MirnaExpressione022c47c-9e3e-47a6-8980-118c04589d42_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JY-01A-31R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_3_AlignedReadse022c47c-9e3e-47a6-8980-118c04589d42", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 153483414, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "b6c1ef53d57c81e94f74436d33150a16", 
+        "updated_datetime": "2018-11-15T21:38:44.655215-06:00", 
+        "file_id": "bcaa4ade-6725-4087-92ac-53941e31ac54", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_3_MirnaExpressionWorkflow248a1def-4c32-451c-ad61-9a23711163b8_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "5f7ae673-4f4f-4203-a80b-e67337fd3432", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50417, 
+  "md5sum": "405efd3ce8af19de55e84faa6ab30a26", 
+  "file_id": "2fd4bc67-0ecf-412f-a9f7-0ff0cd8413f7", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-PK-A5H8-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "42ef34cc-ffb4-432c-82bb-7aa56639ff51", 
+      "entity_id": "8ca595dc-e9c9-4931-a697-9e781086f7a8"
+    }
+  ], 
+  "file_name": "a7d4a061-39f8-4cd8-8e98-ad97cc8ca0e6.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_0_MirnaExpressiona5057a79-77bd-45eb-8302-5061334e5633_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-PK-A5H8-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_0_AlignedReadsa5057a79-77bd-45eb-8302-5061334e5633", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 113930627, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "74a73ac6f4566bfae787be99e04b8687", 
+        "updated_datetime": "2018-11-15T21:47:23.001784-06:00", 
+        "file_id": "cac4110c-61b4-435b-a79c-5b322e13e4f3", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_0_MirnaExpressionWorkflow198d26e5-6321-4d9e-adbf-486bc6af1851_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "2d2a19db-e5ac-4d2f-8634-6d5aebffd185", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50366, 
+  "md5sum": "fc4ab8b3197a306ea78dfa070fcbc404", 
+  "file_id": "3d88f7d0-01d0-432a-b3a4-aed0e410d196", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JX-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "42f69b2b-f3aa-4f4e-ac3a-149e14789927", 
+      "entity_id": "e52fbca3-b617-4b11-ae63-bc22bbd91c64"
+    }
+  ], 
+  "file_name": "3404628a-62cd-49fa-aa36-202dbf606056.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_63_MirnaExpressiona66a96ad-b3ce-4fc6-a317-70ea678d326b_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JX-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_63_AlignedReadsa66a96ad-b3ce-4fc6-a317-70ea678d326b", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 212367072, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "638ebcc28210a58ceada2a42ce61acb5", 
+        "updated_datetime": "2018-11-15T19:59:41.719344-06:00", 
+        "file_id": "122da73e-c32d-43a4-aec5-950d9add7a35", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_63_MirnaExpressionWorkflow8bb1bd6c-0faa-4c0a-ae7a-1cfbc088e8b7_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "751a3a69-063b-43e2-8eff-03daa262431e", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50420, 
+  "md5sum": "e8e2d6a236db97f69f0324ecd4498053", 
+  "file_id": "87be2280-96ef-44a6-aad0-1a01533bc3c0", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JA-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "48402d61-3a6b-4603-bfa0-b1a38a47d34d", 
+      "entity_id": "47130771-6e2d-49b9-959e-9d62de1acd53"
+    }
+  ], 
+  "file_name": "3805f79c-8433-40ce-baae-74a667168119.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_42_MirnaExpression975c124a-9e3b-41d3-b1d4-2f4f809968d6_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JA-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_42_AlignedReads975c124a-9e3b-41d3-b1d4-2f4f809968d6", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 212546448, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "27a398c5a1c3644e742a8e8bcc93071e", 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "file_id": "159741db-fa08-4827-98e5-1237957b49a3", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_42_MirnaExpressionWorkflowffe453ee-9e8c-455b-be10-e2d9fea68b75_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "eb406a91-d46b-4f2d-9695-e49076298aa2", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50666, 
+  "md5sum": "5804b657d141a8eb490fed0135fcf263", 
+  "file_id": "6dbdc690-7acc-467b-b29d-21878eebe291", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5JO-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "4fbbbe43-3c0e-4475-bcf8-3745bd7195eb", 
+      "entity_id": "7f5ff6b6-a509-4d17-ba1d-f4852fe8aee4"
+    }
+  ], 
+  "file_name": "156fcd51-7a2c-4f0a-9a7e-b4234affe200.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_31_MirnaExpression98012b8d-777d-4e89-8f76-90c68f5acdb6_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5JO-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_31_AlignedReads98012b8d-777d-4e89-8f76-90c68f5acdb6", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 304390383, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "2c18133dd1d4830067ea156d49a28e9a", 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "file_id": "610b192d-8f73-4bf9-ada1-77df79793aa2", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_31_MirnaExpressionWorkflow1ecbefa8-7a32-492f-a155-7fecc294387f_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "1049995f-5f68-4598-8f8c-e547d01cb5cf", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50379, 
+  "md5sum": "328eef4cbfd38629cbea03e9d0aaab1d", 
+  "file_id": "736a15cb-70e0-4ca4-9efd-809bbb60821c", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5LN-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "56cdbba2-327e-4acd-a1eb-0f313a77834f", 
+      "entity_id": "0aab0660-f928-4ee0-86fb-583e0f3f42d2"
+    }
+  ], 
+  "file_name": "87ddb10b-2704-4bf0-8cc3-924984c69a99.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_61_MirnaExpression9b2ba3a6-6404-4828-b748-4576d1f29dcb_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5LN-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_61_AlignedReads9b2ba3a6-6404-4828-b748-4576d1f29dcb", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 253626404, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "40b975fc94c9fd118d6d688230f44381", 
+        "updated_datetime": "2018-11-15T21:47:23.001784-06:00", 
+        "file_id": "cc846ae3-c477-4c40-b558-405dd69168a4", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_61_MirnaExpressionWorkflow29006234-74fb-49bf-8c08-351fbc70189f_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "d188e983-8032-41e0-a72e-1dc3d4f25a75", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50452, 
+  "md5sum": "2fd65e4ad93c6f33c9012ac5db052e47", 
+  "file_id": "524b3ae6-33e4-45f9-bae2-3caff1b9d6ca", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5L8-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "5e086192-ab74-4aa3-bf6b-b34ab19995db", 
+      "entity_id": "30996bd8-68c5-4527-99cd-e635057c4574"
+    }
+  ], 
+  "file_name": "2f77f690-6c64-4956-ac60-fde4effd7a79.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_56_MirnaExpressiond7126f5f-7094-457e-b326-121e9900512b_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5L8-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_56_AlignedReadsd7126f5f-7094-457e-b326-121e9900512b", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 282664394, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "19774f2298549847fce75071c6dece31", 
+        "updated_datetime": "2018-11-15T21:47:23.001784-06:00", 
+        "file_id": "ce940b7f-e496-42e5-801e-9f2f92dec55a", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_56_MirnaExpressionWorkflow9a56bc8a-78f8-420c-aa92-9cadd3b3dbc0_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "afd87f09-7d3e-45cc-983a-bcc8f074e475", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50397, 
+  "md5sum": "b8c3824aa40c3ad6074ff4c7aad5b24a", 
+  "file_id": "0cf6d4c7-969f-4707-98f3-ad23efc2070d", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OU-A5PI-01A-12R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "a5be4e42-cb6c-4e67-8547-45dbd058bb95", 
+      "entity_id": "1e1ae4dd-1f89-42bd-8154-165f603962b9"
+    }
+  ], 
+  "file_name": "cfd2fc00-e3e4-4839-9429-d38f2036b0bc.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_74_MirnaExpression7aa0c788-88a2-4ae7-974f-3381017a3983_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OU-A5PI-01A-12R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_74_AlignedReads7aa0c788-88a2-4ae7-974f-3381017a3983", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 182592362, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "1f65dad852297ff62addff791ddc6ec8", 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "file_id": "1a52f9b1-89d5-428d-bdf9-3c50fdf4645b", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_74_MirnaExpressionWorkflow1bb410b2-57bc-4ff4-aba8-b3da9fc54cbb_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "a66d1373-2f70-45f3-a286-efa47775bbf7", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50428, 
+  "md5sum": "90a24b69769232142b9af18680030aa6", 
+  "file_id": "3d5f0360-ccdb-4032-8b3f-d2c39247b33c", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5L3-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "a9a57127-94d3-425f-a4c5-5cbcf24a9a35", 
+      "entity_id": "fbaac44c-1483-40ba-bfdb-26a73c9cbe36"
+    }
+  ], 
+  "file_name": "4525cca8-2983-426f-a6e4-54fdaf562058.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_62_MirnaExpression792bf1de-1ff6-421e-a10b-6631e771f259_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5L3-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_62_AlignedReads792bf1de-1ff6-421e-a10b-6631e771f259", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 142068070, 
+        "created_datetime": "2018-03-20T08:28:37.674175-05:00", 
+        "md5sum": "6f70fdee1fbb95ae2ff79fd4636bef3d", 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "file_id": "42642ca8-d679-420c-acab-28116f02cf6c", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_62_MirnaExpressionWorkflow4f1e5d12-7e73-4e32-9c1f-84ae3cf49ef3_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "bca73329-d06b-410c-86ff-d156f1fc7284", 
+    "created_datetime": "2018-03-20T08:28:37.674175-05:00"
+  }, 
+  "file_size": 50260, 
+  "md5sum": "870254d311c69f1bd62f864d3d7d3f5f", 
+  "file_id": "5c7488f4-6475-4dc3-94c4-1dac507ee438", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5J1-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "b3164f7b-c826-4e08-9ee6-8ff96d29b913", 
+      "entity_id": "7f50d25e-d637-4e3d-9d65-a7b24d55e8fb"
+    }
+  ], 
+  "file_name": "8f3aed38-c0f0-4d54-a943-99c40b1ef279.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_34_MirnaExpression5de3b6c3-43aa-45eb-8a8d-fdf95660fb73_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5J1-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_34_AlignedReads5de3b6c3-43aa-45eb-8a8d-fdf95660fb73", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 199837112, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "a4022f2d990fef092b90cbbcdbfc535b", 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "file_id": "18c9affc-e499-4093-ac8a-5cb274a901aa", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_34_MirnaExpressionWorkflowa5ca6da7-59bc-4990-9a4b-86a3b3b644d9_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "0890c1d7-7670-49d2-a90c-0cb47ed6f14e", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50494, 
+  "md5sum": "8e75d02206c0e160d671073210255735", 
+  "file_id": "e558c314-e1c1-4c80-879b-c303373b746c", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-OR-A5KO-01A-11R-A29W-13", 
+      "entity_type": "aliquot", 
+      "case_id": "b4b41a43-ee45-4aa3-abf0-100db752a6ac", 
+      "entity_id": "4c661ac0-c043-4f57-8d95-03b46b43ef21"
+    }
+  ], 
+  "file_name": "1c86676b-43f8-4f7f-8173-d33a5906108c.mirbase21.mirnas.quantification.txt", 
+  "submitter_id": "mirna_swap_dr11_18_MirnaExpression7ddc3222-6508-40d4-8c6f-9fd21cde91e5_profiling", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "TCGA-OR-A5KO-01A-11R-A29W-13_mirna_gdc_realn.bam", 
+        "submitter_id": "mirna_swap_dr11_18_AlignedReads7ddc3222-6508-40d4-8c6f-9fd21cde91e5", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 175040704, 
+        "created_datetime": "2018-03-20T08:27:55.452525-05:00", 
+        "md5sum": "6e38bc07d4f3ac9dacc1d2a897c60b8a", 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "file_id": "e392d84e-0356-4c89-aa91-7230af389517", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "miRNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T16:27:27.906249-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-dnaseq-cwl/blob/gdc-active-submission/workflows/mirnaseq/runner.cwl", 
+    "submitter_id": "mirna_swap_dr11_18_MirnaExpressionWorkflow34cb2291-38d7-4e22-8c4d-1d9de0d95e26_pipeline:mirnaseq0.0.1", 
+    "state": "released", 
+    "workflow_type": "BCGSC miRNA Profiling", 
+    "analysis_id": "01822bf1-8110-46bf-9100-465d346779db", 
+    "created_datetime": "2018-03-20T08:27:55.452525-05:00"
+  }, 
+  "file_size": 50474, 
+  "md5sum": "0e8f5f420bf1fb1c297c37b405138eee", 
+  "file_id": "d4add3fa-7b02-43ed-9378-fe38fad1bf87", 
+  "data_type": "miRNA Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "miRNA-Seq"
+}]
