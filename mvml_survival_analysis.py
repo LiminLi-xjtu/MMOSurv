@@ -13,7 +13,7 @@ import argparse
 import json
 from model.neural_network import mvml_survival_Analysis
 
-## inner-loop learning
+## Inner-loop learning : the inner-loop learns task T drawn from the training samples of relevant cancers, given initialization parameters θ.
 def do_base_learning(mvml_model, x_RNASeq_batch, x_miRNA_batch, R_matrix_batch, ystatus_batch,
                      TRAIN_INNER_LR, TRAIN_N_INNER, REG_SCALE):
     new_mvml_model = mvml_survival_Analysis()
@@ -62,7 +62,7 @@ def do_base_learning(mvml_model, x_RNASeq_batch, x_miRNA_batch, R_matrix_batch, 
         f.writelines("loss_mvml:" + str(loss_mvml.cpu()) + '\n')
     return new_mvml_model
 
-## the final learning
+## Final learning : in the final learning phase, we first initialize the model with the meta-learnt parameters θ, and then fine-tune the model with a few training samples from target cancer task.
 def do_final_learning(mvml_model, x_RNASeq_test_support, x_miRNA_test_support, ytime_test_support,
                       ystatus_test_support, x_RNASeq_test_qeury, x_miRNA_test_qeury, ytime_test_qeury,
                       ystatus_test_qeury, TRAIN_LR, REG_SCALE, META_STEP):
@@ -335,7 +335,7 @@ def meta_learn(x_RNASeq_train, x_miRNA_train, ytime_train, ystatus_train, TRAIN_
             new_mvml_model = do_base_learning(mvml_model, x_RNASeq_batch, x_miRNA_batch, R_matrix_batch, ystatus_batch,
                                               TRAIN_INNER_LR, TRAIN_N_INNER, REG_SCALE)
 
-            ## meta-loop learning
+            ## Meta-loop learning : the meta-loop regards m tasks as m learning samples when updating the parameters.
             diff = list()
             for p, new_p in zip(mvml_model.parameters(), new_mvml_model.parameters()):
                 temp = Variable(torch.zeros(p.size()))
