@@ -129,7 +129,7 @@ def do_final_learning(mvml_model, x_RNASeq_test_support, x_miRNA_test_support, y
     # return c_index
     return np.max(np.array(cind_list))
 
-## 
+## Evaluate the model on target cancer test data
 def do_final_eval(trained_model, x_RNASeq_test_query, x_miRNA_test_query, ytime_test_query, ystatus_test_query):
     trained_model.eval()
     x_RNASeq_batch = torch.FloatTensor(x_RNASeq_test_query)
