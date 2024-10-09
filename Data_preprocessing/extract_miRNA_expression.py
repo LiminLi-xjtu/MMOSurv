@@ -119,4 +119,4 @@ for type_path in path:
     #     break
     # print(count)
     result = pd.merge(gene_dataframe, meta_dataframe, how="inner", on=['file_id', 'file_name'])
-    result.to_csv("miRNA_Origin/" + label + ".csv")
+    result.to_csv("Data_preprocessing/miRNA_source_to_csv/" + label + ".csv")
