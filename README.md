@@ -27,6 +27,8 @@ In the file RNASeq_variable_filter.py, we imputed missing data, filtered out noi
 
 #### python microRNA_variable_filter.py
 
+We aggregate censoring indicator δ and observed time O in the file clinical_preprocess.py.
+
 #### python clinical_preprocess.py
 
 # Run the main routine
