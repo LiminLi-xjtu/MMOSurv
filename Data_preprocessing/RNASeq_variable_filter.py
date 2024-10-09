@@ -6,9 +6,8 @@ import numpy as np
 # import csv
 
 
-# cancer_list = ['BRCA', 'KIRC', 'HNSC', 'LUAD']
 source_file_path = './Datasets_and_Preprocessing/data/RNASeq_source_to_csv'
-target_file_path = './Datasets_and_Preprocessing/data/RNASeq_variable_filter_csv_var_1.2_mean_0.5'
+target_file_path = './Datasets_and_Preprocessing/data/RNASeq_variable_filter_csv'
 flag = True
 for root, dirs, files in os.walk(source_file_path):
     for file in files:
