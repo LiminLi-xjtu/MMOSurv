@@ -135,7 +135,7 @@ for type_path in path:
     #     break
     # print(count)
     result = pd.merge(gene_dataframe, meta_dataframe, how="inner", on=['file_id', 'file_name'])
-    result.to_csv("RNA_Origin/" + label + ".csv")
+    result.to_csv("Data_preprocessing/RNASeq_source_to_csv/" + label + ".csv")
 
 
 # file_write_name.close()
