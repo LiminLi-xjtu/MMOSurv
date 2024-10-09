@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 # 导入CSV安装包
 
-base_path = "Data_preprocessing"
+base_path = "Data_preprocessing/"
 miRNA_path = base_path + "miRNA_variable_filter_csv"
 RNASeq_path = base_path + "RNASeq_variable_filter_csv"
 clinical_path = base_path + "clinical"
