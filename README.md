@@ -11,7 +11,7 @@ $ pip install pandas=1.3.5, numpy=1.20.2, scikit-learn=1.0.2, pytorch=1.9.0, lif
 
 # Data and Preprocessing
 
-The TCGA dataset are publicly available and can be obtained from: https://www.cancer.gov/ccg/research /genome-sequencing/tcga. We put raw data (gene/microRNA expression data and clinical data) of cancer patients in the Data_preprocessing/Origin_Data directory .
+The TCGA dataset are publicly available and can be obtained from: https://www.cancer.gov/ccg/research /genome-sequencing/tcga. We put raw data (gene/microRNA expression data and clinical data) of some cancer patients in the Data_preprocessing/Origin_Data directory .
 
 #### cd MMOSurv/Data_preprocessing
 
