@@ -10,9 +10,20 @@ $ conda env export > environment.yml
 
 $ source activate survival_analysis
 
-# Data and Preprocessing
+# Data Download
 
-The TCGA dataset are publicly available and can be obtained from: https://www.cancer.gov/ccg/research /genome-sequencing/tcga. We put raw data (gene/microRNA expression data and clinical data) of some cancer patients in the Data_preprocessing/Origin_Data directory .
+The TCGA dataset are publicly available and can be obtained from: https://www.cancer.gov/ccg/research /genome-sequencing/tcga.  We downloaded genomic data and survival data using the R package TCGAbiolinks.
+
+Enter the R environment
+
+$ setwd()
+
+$ source ()
+
+ 
+and Preprocessing
+
+ We put raw data (gene/microRNA expression data and clinical data) of some cancer patients in the Data_preprocessing/Origin_Data directory .
 
 #### cd MMOSurv/Data_preprocessing
 
