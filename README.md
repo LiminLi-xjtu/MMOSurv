@@ -15,13 +15,13 @@ $ pip install pandas=1.3.5, numpy=1.20.2, scikit-learn=1.0.2, pytorch=1.9.0, lif
 
 cd MMOSurv/Data_preprocessing
 
-# we summarize the gene expression of patients with the same type of cancer into a csv file in extract_RNASeq_expression.py
+## we summarize the gene expression of patients with the same type of cancer into a csv file in extract_RNASeq_expression.py
 
 python extract_RNASeq_expression.py
 
 python extract_miRNA_expression.py
 
-# we summarize the gene expression of patients with the same type of cancer into a csv file in extract_RNASeq_expression.py
+## we summarize the gene expression of patients with the same type of cancer into a csv file in extract_RNASeq_expression.py
 
 python RNASeq_variable_filter.py
 
