@@ -6,12 +6,9 @@ This is an implementation of MMOSurv in Python 3.9.5 under Linux with CPU Intel(
 
 # Environment Installation
 
-$ conda create -n survival-analysis
+$ conda env export > environment.yml
 
-$ source activate survival-analysis
-
-$ pip 
-
+$ source activate survival_analysis
 
 # Data and Preprocessing
 
