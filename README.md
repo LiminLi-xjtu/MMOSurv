@@ -50,10 +50,10 @@ The python program (matched_patients.py) only kept the patients with matched gen
 
 # Run the main routine
 
+MMOSurv first learns a suitable initialization of parameters for the multi-omics survival model from multi-omics data of relevant cancers, and then adapts the parameters quickly and efficiently for the target cancer task with a few training samples.
+
 #### git clone https://github.com/LiminLi-xjtu/MMOSurv.git
 
 #### cd MMOSurv
-
-MMOSurv first learns a suitable initialization of parameters for the multi-omics survival model from multi-omics data of relevant cancers, and then adapts the parameters quickly and efficiently for the target cancer task with a few training samples.
 
 #### python mvml_survival_analysis.py
