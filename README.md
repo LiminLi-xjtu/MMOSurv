@@ -16,14 +16,15 @@ The TCGA dataset are publicly available and can be obtained from: https://www.ca
 
 Enter the R environment
 
-$ setwd()
+$ setwd("Data_preprocessing/R")
 
-$ source ()
+$ source("miRNA_download.R")
 
- 
-and Preprocessing
+$ source("tcga_gene_expression_download.R")
 
- We put raw data (gene/microRNA expression data and clinical data) of some cancer patients in the Data_preprocessing/Origin_Data directory .
+$ source("tcga_clinical_download.R")
+
+# Data Preprocessing
 
 #### cd MMOSurv/Data_preprocessing
 
