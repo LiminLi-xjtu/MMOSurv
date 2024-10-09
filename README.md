@@ -2,7 +2,7 @@
 
 MMOSurv: Meta-learning for few-shot survival analysis with multi-omics data
 
-This is an implementation of MMOSurv in Python 3.9.5 under Linux with CPU Intel(R) Core(TM) i9-12900K and GPU NVIDIA GeForce RTX 3090. It follows a modern deep learning design and is implemented by PyTorch platform.
+MMOSurv enables to learn an effective multi-omics survival prediction model from a very few training samples of a specific cancer type, with the meta-knowledge across tasks from relevant cancer types. This is an implementation of MMOSurv in Python 3.9.5 under Linux with CPU Intel(R) Core(TM) i9-12900K and GPU NVIDIA GeForce RTX 3090. It follows a modern deep learning design and is implemented by PyTorch platform.
 
 # Environment Installation
 
@@ -54,8 +54,6 @@ The python program (matched_patients.py) only kept the patients with matched gen
 
 #### cd MMOSurv
 
-MMOSurv enables to learn an effective multi-omics survival prediction model from a very
-few training samples of a specific cancer type, with the meta-knowledge across tasks from relevant
-cancer types.
+MMOSurv first learns a suitable initialization of parameters for the multi-omics survival model from multi-omics data of relevant cancers, and then adapts the parameters quickly and efficiently for the target cancer task with a few training samples.
 
 #### python mvml_survival_analysis.py
