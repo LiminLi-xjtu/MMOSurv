@@ -15,21 +15,25 @@ The TCGA dataset are publicly available and can be obtained from: https://www.ca
 
 #### cd MMOSurv/Data_preprocessing
 
-we summarize the gene expression of patients with the same type of cancer into a csv file in the file extract_RNASeq_expression.py
+The python program (extract_RNASeq_expression.py) summarizes the gene expression of patients with the same type of cancer into a csv file. 
 
 #### python extract_RNASeq_expression.py
 
 #### python extract_miRNA_expression.py
 
-In the file RNASeq_variable_filter.py, we imputed missing data, filtered out noise-sensitive features (those whose values ​​remained almost constant across samples), and performed a logarithmic transformation.
+The python program (RNASeq_variable_filter.py) imputed missing data, filtered out noise-sensitive features (those whose values ​​remained almost constant across samples), and performed a logarithmic transformation.
 
 #### python RNASeq_variable_filter.py
 
 #### python microRNA_variable_filter.py
 
-We aggregate censoring indicator δ and observed time O in the file clinical_preprocess.py.
+The python program (clinical_preprocess.py)  aggregate the survival data of cancer patients (such as censoring indicator δ and observed time O).
 
 #### python clinical_preprocess.py
+
+The python program (matched_patients.py) only kept the patients with matched gene expression, microRNA expression data and survival data.
+
+#### python matched_patients.py
 
 # Run the main routine
 
