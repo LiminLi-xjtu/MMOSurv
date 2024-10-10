@@ -6,7 +6,7 @@ MMOSurv enables to learn an effective multi-omics survival prediction model from
 
 # Environment Installation
 
-$ conda env export > environment.yml
+$ conda env create -f environment.yml
 
 $ source activate survival_analysis
 
