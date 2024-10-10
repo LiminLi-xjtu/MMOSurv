@@ -81,7 +81,8 @@ for col in columns_name:
         temp[col] = temp[col].astype(float)
         var = np.var(np.log2(np.array(temp[col]).squeeze() + 1))
         mean = np.mean(np.log2(np.array(temp[col]).squeeze() + 1))
-
+        
+        # if var > 1.2 and mean > 2:
         if var > 1.2 and mean > 0.5:
             var_col_name.append(col)
         temp[col] = np.log2(np.array(temp[col]).squeeze() + 1).tolist()
