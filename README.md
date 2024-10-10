@@ -12,7 +12,7 @@ $ source activate survival_analysis
 
 # Data Download
 
-The TCGA dataset are publicly available and can be obtained from: https://www.cancer.gov/ccg/research /genome-sequencing/tcga.  We downloaded genomic data and survival data using the R package TCGAbiolinks.
+The TCGA dataset are publicly available and can be obtained from: https://www.cancer.gov/ccg/research/genome-sequencing/tcga.  We downloaded genomic data and survival data using the R package TCGAbiolinks.
 
 Enter the R environment
 
