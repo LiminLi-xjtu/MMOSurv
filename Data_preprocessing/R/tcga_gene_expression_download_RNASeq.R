@@ -43,12 +43,7 @@ query <- GDCquery(project = "TCGA-CHOL",
                     data.type = "Gene Expression Quantification", 
                     workflow.type = "HTSeq - FPKM")
 GDCdownload(query, method = "api", directory = "Data_preprocessing/Origin_Data/RNASeq", files.per.chunk = 100)
-###########
-#query <- GDCquery(project = "TCGA-LCML", 
-#                    data.category = "Transcriptome Profiling", 
-#                    data.type = "Gene Expression Quantification", 
-#                    workflow.type = "HTSeq - Counts")
-#GDCdownload(query, method = "api", directory = "F:/TCGA", files.per.chunk = 100)
+
 
 query <- GDCquery(project = "TCGA-COAD", 
                     data.category = "Transcriptome Profiling", 
@@ -116,7 +111,6 @@ query <- GDCquery(project = "TCGA-DLBC",
                     workflow.type = "HTSeq - FPKM")
 GDCdownload(query, method = "api", directory = "Data_preprocessing/Origin_Data/RNASeq", files.per.chunk = 100)
 
-##########
 
 query <- GDCquery(project = "TCGA-MESO", 
                     data.category = "Transcriptome Profiling", 
