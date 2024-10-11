@@ -34,7 +34,6 @@ query <- GDCquery(project = "TCGA-CHOL",
                     data.type = "miRNA Expression Quantification")
 GDCdownload(query, method = "api", directory = "Data_preprocessing/Origin_Data/miRNA", files.per.chunk = 100)
 
-&&&&&&&&&&&&&&&&&&&&&&&
 
 query <- GDCquery(project = "TCGA-COAD", 
                     data.category = "Transcriptome Profiling", 
@@ -91,7 +90,6 @@ query <- GDCquery(project = "TCGA-DLBC",
                     data.type = "miRNA Expression Quantification")
 GDCdownload(query, method = "api", directory = "Data_preprocessing/Origin_Data/miRNA", files.per.chunk = 100)
 
-##########
 
 query <- GDCquery(project = "TCGA-MESO", 
                     data.category = "Transcriptome Profiling", 
