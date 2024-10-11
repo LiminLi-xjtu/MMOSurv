@@ -1,3 +1,7 @@
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("TCGAbiolinks")
+
 library(TCGAbiolinks)
 query <- GDCquery(project = "TCGA-LAML", 
                     data.category = "Transcriptome Profiling", 

@@ -1,7 +1,7 @@
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install("TCGAbiolinks")
-
+library(TCGAbiolinks)
 clinical<-GDCquery_clinic(project="TCGA-LAML", type="clinical")
 write.csv(clinical, 'Data_preprocessing/Origin_Data/Clinical/TCGA-LAML.csv')
 
