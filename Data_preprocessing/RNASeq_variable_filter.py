@@ -5,18 +5,16 @@ import numpy as np
 # 导入CSV安装包
 # import csv
 
-
-source_file_path = 'Data_preprocessing/RNASeq_source_to_csv'
-target_file_path = 'Data_preprocessing/RNASeq_variable_filter_csv'
+source_file_path = './RNASeq_source_to_csv'
+target_file_path = './RNASeq_variable_filter_csv'
 flag = True
 for root, dirs, files in os.walk(source_file_path):
     for file in files:
         cancer_type = file.split('.')[0].split('-')[1]
         if True:
-        # if cancer_type not in cancer_list:
             file_path = str(os.path.join(root, file).encode('utf-8'), 'utf-8')
             temp_class = pd.read_csv(file_path, sep=',')
-            print(temp_class.shape)
+
             if flag:
                 temp = temp_class
                 flag = False
@@ -27,7 +25,7 @@ print("gene_feature的数目：" + str(temp.shape[1]))
 temp = temp.dropna(axis=1, thresh=temp.shape[0] * 0.9)
 print("删除None后" + " gene_feature的数目：" + str(temp.shape[1]))
 
-print( "样本的数目：" + str(temp.shape[0]))
+print(cancer_type + "样本的数目：" + str(temp.shape[0]))
 # temp = temp.dropna(axis=0, how='any')
 temp = temp.dropna(axis=0, thresh=temp.shape[1] * 0.5)
 print("删除None后" + "样本的数目：" + str(temp.shape[0]))
@@ -58,20 +56,6 @@ temp[mean_col_name] = temp[mean_col_name].fillna(temp[mean_col_name].mean())
 # temp_knn = imputer.fit_transform(temp[KNN_col_name])
 # temp[KNN_col_name] = temp_knn
 
-# colname_list = []
-# var_value_list = []
-# for col in columns_name:
-#     if col[:2] == 'EN':
-#         with open('gene process' + '.log', 'a') as f:
-#             f.writelines('gene_name:' + col + '\n')
-#         temp[[col]] = temp[[col]].astype(float)
-#         log2_val = np.log2(np.array(temp[[col]]).squeeze() + 1)
-#         var = np.var(log2_val)
-#         temp[col] = log2_val.tolist()
-#         var_value_list.append(var)
-#         colname_list.append(col)
-# ddff = pd.DataFrame({'col_name': colname_list, 'var_value': var_value_list})
-# var_col_name = np.squeeze(ddff.sort_values(by='var_value', ascending=False).iloc[:10000][['col_name']].values).tolist()
 var_col_name = []
 for col in columns_name:
     # if col != 'label' and col != 'file_id' and col != 'file_name' and col != 'submitter_id':
@@ -81,9 +65,8 @@ for col in columns_name:
         temp[col] = temp[col].astype(float)
         var = np.var(np.log2(np.array(temp[col]).squeeze() + 1))
         mean = np.mean(np.log2(np.array(temp[col]).squeeze() + 1))
-        
-        # if var > 1.2 and mean > 2:
-        if var > 1.2 and mean > 0.5:
+
+        if var > 1.2 and mean > 2:
             var_col_name.append(col)
         temp[col] = np.log2(np.array(temp[col]).squeeze() + 1).tolist()
 
@@ -95,7 +78,7 @@ var_col_name.append('label')
 # var_col_name.append('file_name')
 var_col_name.append('submitter_id')
 print(temp['label'])
-print( "筛选后gene的数目：" + str(len(var_col_name) - 2))
+print("筛选后gene的数目：" + str(len(var_col_name) - 2))
 df_RNASeq = temp[var_col_name]
 df_RNASeq[df_RNASeq['label'].isin(["TCGA-ACC"])].to_csv(target_file_path + "/TCGA-ACC.csv", index=False, header=True)
 df_RNASeq[df_RNASeq['label'].isin(["TCGA-BLCA"])].to_csv(target_file_path + "/TCGA-BLCA.csv", index=False, header=True)
@@ -131,5 +114,4 @@ df_RNASeq[df_RNASeq['label'].isin(["TCGA-UCEC"])].to_csv(target_file_path + "/TC
 df_RNASeq[df_RNASeq['label'].isin(["TCGA-UCS"])].to_csv(target_file_path + "/TCGA-UCS.csv", index=False, header=True)
 df_RNASeq[df_RNASeq['label'].isin(["TCGA-UVM"])].to_csv(target_file_path + "/TCGA-UVM.csv", index=False, header=True)
 
-# df_RNASeq[~(df_RNASeq['label'].isin(["TCGA-BRCA"]))].to_csv(target_file_path + "/BRCA_Del.csv", index=False, header=True)
-# df_RNASeq[~(df_RNASeq['label'].isin(["TCGA-MESO"]))].to_csv(target_file_path + "/MESO_Del.csv", index=False, header=True)
+

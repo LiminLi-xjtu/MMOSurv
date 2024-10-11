@@ -5,8 +5,8 @@ import numpy as np
 # 导入CSV安装包
 # import csv
 
-source_file_path = 'Data_preprocessing/miRNA_source_to_csv'
-target_file_path = 'Data_preprocessing/miRNA_variable_filter_csv'
+source_file_path = './miRNA_source_to_csv'
+target_file_path = './miRNA_variable_filter_csv'
 flag = True
 for root, dirs, files in os.walk(source_file_path):
     for file in files:
@@ -20,7 +20,7 @@ for root, dirs, files in os.walk(source_file_path):
                 flag = False
             else:
                 temp = temp.append(temp_class)
-print("microRNA_feature的数目：" + str(temp.shape[1]))
+print(" microRNA_feature的数目：" + str(temp.shape[1]))
 # temp = temp.dropna(axis=0, how='any')
 temp = temp.dropna(axis=1, thresh=temp.shape[0] * 0.9)
 print("删除None后" + " microRNA_feature的数目：" + str(temp.shape[1]))
@@ -29,33 +29,25 @@ print("样本的数目：" + str(temp.shape[0]))
 # temp = temp.dropna(axis=0, how='any')
 temp = temp.dropna(axis=0, thresh=temp.shape[1] * 0.5)
 print("删除None后" + "样本的数目：" + str(temp.shape[0]))
-
 # # 中位数填补缺失值
 # columns_name = list(temp.columns)
 # for col in columns_name:
-#     if col[:2] == 'EN':
+#     if col[:3] == 'hsa':
 #         temp[col] = np.squeeze(np.array(temp[[col]].fillna(temp[col].median())))
 
 # 均值填补缺失值
-# columns_name = list(temp.columns)
-# for col in columns_name:
-#     if col[:2] == 'EN':
-#         temp[col] = np.squeeze(np.array(temp[[col]].fillna(temp[col].mean())))
 columns_name = list(temp.columns)
-print(columns_name[0])
-mean_col_name = columns_name[1:-4]
-temp[mean_col_name] = temp[mean_col_name].fillna(temp[mean_col_name].mean())
-
+for col in columns_name:
+    if col[:3] == 'hsa':
+        temp[col] = np.squeeze(np.array(temp[[col]].fillna(temp[col].mean())))
 
 # # 最近邻填补缺失值
 # from sklearn.impute import KNNImputer
 # imputer = KNNImputer(n_neighbors=2)
 # columns_name = list(temp.columns)
-# print(columns_name[0])
 # KNN_col_name = columns_name[1:-4]
 # temp_knn = imputer.fit_transform(temp[KNN_col_name])
 # temp[KNN_col_name] = temp_knn
-
 
 
 var_col_name = []
@@ -65,13 +57,13 @@ for col in columns_name:
     if col[:3] == 'hsa':
         temp[col] = temp[col].astype(float)
         log2_val = np.log2(np.array(temp[[col]]).squeeze() + 1)
+        var = np.var(log2_val)
         temp[col] = log2_val.tolist()
         var_col_name.append(col)
-        # var = np.var(log2_val)
         # if var > 0.5:
         #     var_col_name.append(col)
 
-print(var_col_name)
+print(len(var_col_name))
 temp['submitter_id'] = temp['submitter_id'].str[0:12]
 temp = temp.drop_duplicates('submitter_id')
 var_col_name.append('label')

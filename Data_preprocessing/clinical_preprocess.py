@@ -5,8 +5,8 @@ from sklearn.model_selection import train_test_split
 # 导入CSV安装包
 import csv
 
-source_path = "Data_preprocessing/Origin_Data/Clinical/"
-target_path = "Data_preprocessing/clinical/"
+source_path = "./Origin_Data/Clinical/"
+target_path = "./clinical/"
 for root, dirs, files in os.walk(source_path):
     for file in files:
         file_path = str(os.path.join(root, file).encode('utf-8'), 'utf-8')
