@@ -22,22 +22,15 @@ for root, dirs, files in os.walk(source_path):
                      "age", "ajcc_pathologic_stage", "ajcc_pathologic_t", "ajcc_pathologic_n", "ajcc_pathologic_m"]]
                 temp_analysis.loc[(temp_analysis.vital_status == "Dead"), 'survival_status'] = 1
                 temp_analysis.loc[(temp_analysis.vital_status == "Alive"), 'survival_status'] = 0
-                # temp_analysis.loc[(temp_analysis.vital_status == "Alive"), 'survival_time']
-                # = temp_analysis.days_to_last_follow_up
                 temp_analysis.loc[
                     (temp_analysis.vital_status == "Alive") & (temp_analysis.days_to_last_follow_up != "NA"),
                     'survival_time'] \
                     = temp_analysis.days_to_last_follow_up
-                # temp_analysis.loc[(temp_analysis.vital_status == "Dead"), 'survival_time'] = temp_analysis.days_to_death
                 temp_analysis.loc[(temp_analysis.vital_status == "Dead") & (temp_analysis.days_to_death != "NA"),
                                   'survival_time'] = temp_analysis.days_to_death
-                # temp_analysis.loc[(temp_analysis.days_to_death == "NA"), 'days_to_death'] = 0
                 temp_analysis["survival_status"] = temp_analysis["survival_status"].astype(float)
                 temp_analysis["survival_time"] = temp_analysis["survival_time"].astype(float)
                 temp_analysis = temp_analysis[temp_analysis["survival_time"] >= 0]
-
-                # temp_analysis = temp_analysis[["submitter_id", "survival_status", "survival_time"]].dropna(axis=0, how='any')
-                # temp_analysis = temp_analysis.drop_duplicates('submitter_id')
 
                 temp_analysis.loc[(temp_analysis.ajcc_pathologic_stage == "Stage I"), 'grade'] = 0
                 temp_analysis.loc[(temp_analysis.ajcc_pathologic_stage == "Stage IA"), 'grade'] = 0
@@ -97,13 +90,12 @@ for root, dirs, files in os.walk(source_path):
                     ["submitter_id", "vital_status", "days_to_last_follow_up", "days_to_death"]]
                 temp_analysis.loc[(temp_analysis.vital_status == "Dead"), 'survival_status'] = 1
                 temp_analysis.loc[(temp_analysis.vital_status == "Alive"), 'survival_status'] = 0
-                # temp_analysis.loc[(temp_analysis.vital_status == "Alive"), 'survival_time']
-                # = temp_analysis.days_to_last_follow_up
+
                 temp_analysis.loc[
                     (temp_analysis.vital_status == "Alive") & (temp_analysis.days_to_last_follow_up != "NA"),
                     'survival_time'] \
                     = temp_analysis.days_to_last_follow_up
-                # temp_analysis.loc[(temp_analysis.vital_status == "Dead"), 'survival_time'] = temp_analysis.days_to_death
+
                 temp_analysis.loc[(temp_analysis.vital_status == "Dead") & (temp_analysis.days_to_death != "NA"),
                                   'survival_time'] = temp_analysis.days_to_death
                 # temp_analysis.loc[(temp_analysis.days_to_death == "NA"), 'days_to_death'] = 0
@@ -112,9 +104,6 @@ for root, dirs, files in os.walk(source_path):
                 temp_analysis = temp_analysis[temp_analysis["survival_time"] >= 0]
                 print(temp_analysis[["submitter_id", "survival_status", "survival_time"]].dropna(axis=0,
                                                                                                  how='any').isnull().any())
-
-                # temp_analysis = temp_analysis[["submitter_id", "survival_status", "survival_time"]].dropna(axis=0, how='any')
-                # temp_analysis = temp_analysis.drop_duplicates('submitter_id')
 
                 temp_analysis = temp_analysis[["submitter_id",
                                                "survival_status", "survival_time"]].dropna(axis=0,
