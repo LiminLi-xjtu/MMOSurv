@@ -60,8 +60,6 @@ for col in columns_name:
         var = np.var(log2_val)
         temp[col] = log2_val.tolist()
         var_col_name.append(col)
-        # if var > 0.5:
-        #     var_col_name.append(col)
 
 print(len(var_col_name))
 temp['submitter_id'] = temp['submitter_id'].str[0:12]
